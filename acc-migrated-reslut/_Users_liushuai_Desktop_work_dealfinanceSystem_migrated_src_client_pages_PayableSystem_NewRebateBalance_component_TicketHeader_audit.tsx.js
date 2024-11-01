@@ -1,5 +1,6 @@
-operation:-,accSub,left:{"type":"MemberExpression","start":1342,"end":1359,"loc":{"start":{"line":28,"column":22},"end":{"line":28,"column":39}},"object":{"type":"Identifier","start":1342,"end":1352,"loc":{"start":{"line":28,"column":22},"end":{"line":28,"column":32},"identifierName":"decorators"},"name":"decorators"},"computed":false,"property":{"type":"Identifier","start":1353,"end":1359,"loc":{"start":{"line":28,"column":33},"end":{"line":28,"column":39},"identifierName":"length"},"name":"length"}},right:{"type":"NumericLiteral","start":1362,"end":1363,"loc":{"start":{"line":28,"column":42},"end":{"line":28,"column":43}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:28,end:28
-operation:-,accSub,left:{"type":"MemberExpression","start":3352,"end":3360,"loc":{"start":{"line":55,"column":60},"end":{"line":55,"column":68}},"object":{"type":"Identifier","start":3352,"end":3353,"loc":{"start":{"line":55,"column":60},"end":{"line":55,"column":61},"identifierName":"t"},"name":"t"},"computed":false,"property":{"type":"Identifier","start":3354,"end":3360,"loc":{"start":{"line":55,"column":62},"end":{"line":55,"column":68},"identifierName":"length"},"name":"length"}},right:{"type":"NumericLiteral","start":3363,"end":3364,"loc":{"start":{"line":55,"column":71},"end":{"line":55,"column":72}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:55,end:55
-operation:+=,accAdd,start:68,end:68
+operation:"-","accSub",left:Member(MemberExpr { span: 1836155..1836172, obj: Ident(Ident { span: 1836155..1836165, ctxt: #12, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 1836166..1836172, sym: "length" }) }),right:Lit(Num(Number { span: 1836175..1836176, value: 1.0, raw: Some("1") }))
+start:1836155,end:1836176
+operation:"-","accSub",left:Member(MemberExpr { span: 1838165..1838173, obj: Ident(Ident { span: 1838165..1838166, ctxt: #24, sym: "t", optional: false }), prop: Ident(IdentName { span: 1838167..1838173, sym: "length" }) }),right:Lit(Num(Number { span: 1838176..1838177, value: 1.0, raw: Some("1") }))
+start:1838165,end:1838177
+operation:"+=","accAdd",left:BytePos(1838957),right:BytePos(1838957)
+start:1838957,end:1838981

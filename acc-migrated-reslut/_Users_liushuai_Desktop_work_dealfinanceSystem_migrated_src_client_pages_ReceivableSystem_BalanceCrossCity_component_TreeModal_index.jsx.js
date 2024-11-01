@@ -1,6 +1,6 @@
-operation:+,accAdd,left:{"type":"Identifier","start":1266,"end":1271,"loc":{"start":{"line":43,"column":49},"end":{"line":43,"column":54},"identifierName":"index"},"name":"index"},right:{"type":"NumericLiteral","start":1274,"end":1275,"loc":{"start":{"line":43,"column":57},"end":{"line":43,"column":58}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:43,end:43
-operation:+,accAdd,left:{"type":"Identifier","start":3446,"end":3451,"loc":{"start":{"line":94,"column":49},"end":{"line":94,"column":54},"identifierName":"index"},"name":"index"},right:{"type":"NumericLiteral","start":3454,"end":3455,"loc":{"start":{"line":94,"column":57},"end":{"line":94,"column":58}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:94,end:94
-operation:+,accAdd,left:{"type":"Identifier","start":4587,"end":4592,"loc":{"start":{"line":126,"column":49},"end":{"line":126,"column":54},"identifierName":"index"},"name":"index"},right:{"type":"NumericLiteral","start":4595,"end":4596,"loc":{"start":{"line":126,"column":57},"end":{"line":126,"column":58}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:126,end:126
+operation:"+","accAdd",left:Ident(Ident { span: 3276256..3276261, ctxt: #4, sym: "index", optional: false }),right:Lit(Num(Number { span: 3276264..3276265, value: 1.0, raw: Some("1") }))
+start:3276256,end:3276265
+operation:"+","accAdd",left:Ident(Ident { span: 3278492..3278497, ctxt: #7, sym: "index", optional: false }),right:Lit(Num(Number { span: 3278500..3278501, value: 1.0, raw: Some("1") }))
+start:3278492,end:3278501
+operation:"+","accAdd",left:Ident(Ident { span: 3279669..3279674, ctxt: #9, sym: "index", optional: false }),right:Lit(Num(Number { span: 3279677..3279678, value: 1.0, raw: Some("1") }))
+start:3279669,end:3279678

@@ -1,2 +1,2 @@
-operation:+,accAdd,left:{"type":"Identifier","start":1655,"end":1659,"loc":{"start":{"line":51,"column":41},"end":{"line":51,"column":45},"identifierName":"text"},"name":"text"},right:{"type":"StringLiteral","start":1662,"end":1665,"loc":{"start":{"line":51,"column":48},"end":{"line":51,"column":51}},"extra":{"rawValue":"%","raw":"\"%\""},"value":"%"}
-start:51,end:51
+operation:"+","accAdd",left:Ident(Ident { span: 683636..683640, ctxt: #10, sym: "text", optional: false }),right:Lit(Str(Str { span: 683643..683646, value: "%", raw: Some("\"%\"") }))
+start:683636,end:683646

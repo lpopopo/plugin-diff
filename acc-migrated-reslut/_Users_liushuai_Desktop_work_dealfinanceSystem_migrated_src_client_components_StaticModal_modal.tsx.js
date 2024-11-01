@@ -1,3 +1,2 @@
-operation:+=,accAdd,start:24,end:24
-operation:+,accAdd,left:{"type":"Identifier","start":3925,"end":3934,"loc":{"start":{"line":60,"column":82},"end":{"line":60,"column":91},"identifierName":"prefixCls"},"name":"prefixCls"},right:{"type":"StringLiteral","start":3937,"end":3948,"loc":{"start":{"line":60,"column":94},"end":{"line":60,"column":105}},"extra":{"rawValue":"-centered","raw":"\"-centered\""},"value":"-centered"}
-start:60,end:60
+operation:"+=","accAdd",left:BytePos(3572363),right:BytePos(3572363)
+start:3572363,end:3572387

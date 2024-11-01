@@ -1,6 +1,6 @@
-operation:+,accAdd,left:{"type":"Identifier","start":282,"end":286,"loc":{"start":{"line":11,"column":33},"end":{"line":11,"column":37},"identifierName":"text"},"name":"text"},right:{"type":"StringLiteral","start":289,"end":292,"loc":{"start":{"line":11,"column":40},"end":{"line":11,"column":43}},"extra":{"rawValue":"/","raw":"\"/\""},"value":"/"}
-start:11,end:11
-operation:+,accAdd,left:{"type":"CallExpression","callee":{"type":"Identifier","name":"accAdd"},"arguments":[{"type":"Identifier","start":282,"end":286,"loc":{"start":{"line":11,"column":33},"end":{"line":11,"column":37},"identifierName":"text"},"name":"text"},{"type":"StringLiteral","start":289,"end":292,"loc":{"start":{"line":11,"column":40},"end":{"line":11,"column":43}},"extra":{"rawValue":"/","raw":"\"/\""},"value":"/"}],"trailingComments":[],"leadingComments":[],"innerComments":[]},right:{"type":"Identifier","start":295,"end":305,"loc":{"start":{"line":11,"column":46},"end":{"line":11,"column":56},"identifierName":"approvalId"},"name":"approvalId"}
-start:11,end:11
-operation:+,accAdd,left:{"type":"StringLiteral","start":1851,"end":1883,"loc":{"start":{"line":56,"column":26},"end":{"line":56,"column":58}},"value":"确认输入："},right:{"type":"Identifier","start":1886,"end":1894,"loc":{"start":{"line":56,"column":61},"end":{"line":56,"column":69},"identifierName":"bankName"},"name":"bankName"}
-start:56,end:56
+operation:"+","accAdd",left:Ident(Ident { span: 3659327..3659331, ctxt: #3, sym: "text", optional: false }),right:Lit(Str(Str { span: 3659334..3659337, value: "/", raw: Some("\"/\"") }))
+start:3659327,end:3659337
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3659327..3659331, ctxt: #3, sym: "text", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3659334..3659337, value: "/", raw: Some("\"/\"") })) }], type_args: None }),right:Ident(Ident { span: 3659340..3659350, ctxt: #3, sym: "approvalId", optional: false })
+start:3659327,end:3659350
+operation:"+","accAdd",left:Lit(Str(Str { span: 3660934..3660966, value: "确认输入：", raw: Some("\"\\u786E\\u8BA4\\u8F93\\u5165\\uFF1A\"") })),right:Ident(Ident { span: 3660969..3660977, ctxt: #5, sym: "bankName", optional: false })
+start:3660934,end:3660977

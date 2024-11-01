@@ -1,3 +1,4 @@
-operation:-,accSub,left:{"type":"MemberExpression","start":2194,"end":2202,"loc":{"start":{"line":36,"column":60},"end":{"line":36,"column":68}},"object":{"type":"Identifier","start":2194,"end":2195,"loc":{"start":{"line":36,"column":60},"end":{"line":36,"column":61},"identifierName":"t"},"name":"t"},"computed":false,"property":{"type":"Identifier","start":2196,"end":2202,"loc":{"start":{"line":36,"column":62},"end":{"line":36,"column":68},"identifierName":"length"},"name":"length"}},right:{"type":"NumericLiteral","start":2205,"end":2206,"loc":{"start":{"line":36,"column":71},"end":{"line":36,"column":72}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:36,end:36
-operation:+=,accAdd,start:49,end:49
+operation:"-","accSub",left:Member(MemberExpr { span: 2342585..2342593, obj: Ident(Ident { span: 2342585..2342586, ctxt: #17, sym: "t", optional: false }), prop: Ident(IdentName { span: 2342587..2342593, sym: "length" }) }),right:Lit(Num(Number { span: 2342596..2342597, value: 1.0, raw: Some("1") }))
+start:2342585,end:2342597
+operation:"+=","accAdd",left:BytePos(2343377),right:BytePos(2343377)
+start:2343377,end:2343401

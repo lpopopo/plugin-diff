@@ -1,5 +1,2 @@
-operation:-,accSub,left:{"type":"MemberExpression","start":1029,"end":1046,"loc":{"start":{"line":20,"column":22},"end":{"line":20,"column":39}},"object":{"type":"Identifier","start":1029,"end":1039,"loc":{"start":{"line":20,"column":22},"end":{"line":20,"column":32},"identifierName":"decorators"},"name":"decorators"},"computed":false,"property":{"type":"Identifier","start":1040,"end":1046,"loc":{"start":{"line":20,"column":33},"end":{"line":20,"column":39},"identifierName":"length"},"name":"length"}},right:{"type":"NumericLiteral","start":1049,"end":1050,"loc":{"start":{"line":20,"column":42},"end":{"line":20,"column":43}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:20,end:20
-operation:+=,accAdd,start:242,end:242
-operation:/,accDiv,left:{"type":"Identifier","start":11170,"end":11173,"loc":{"start":{"line":248,"column":35},"end":{"line":248,"column":38},"identifierName":"sum"},"name":"sum"},right:{"type":"NumericLiteral","start":11176,"end":11179,"loc":{"start":{"line":248,"column":41},"end":{"line":248,"column":44}},"extra":{"rawValue":100,"raw":"100"},"value":100}
-start:248,end:248
+operation:"-","accSub",left:Member(MemberExpr { span: 1808901..1808918, obj: Ident(Ident { span: 1808901..1808911, ctxt: #9, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 1808912..1808918, sym: "length" }) }),right:Lit(Num(Number { span: 1808921..1808922, value: 1.0, raw: Some("1") }))
+start:1808901,end:1808922
