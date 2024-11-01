@@ -1,0 +1,10 @@
+operation:"/","accDiv",left:Ident(Ident { span: 3945341..3945346, ctxt: #23, sym: "value", optional: false }),right:Lit(Num(Number { span: 3945349..3945352, value: 100.0, raw: Some("100") }))
+start:3945341,end:3945352
+operation:"*","accMul",left:Call(CallExpr { span: 3946998..3947015, ctxt: #0, callee: Expr(Ident(Ident { span: 3946998..3947008, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3947009..3947014, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3947018..3947021, value: 100.0, raw: Some("100") }))
+start:3946998,end:3947021
+operation:"*","accMul",left:Call(CallExpr { span: 3948002..3948019, ctxt: #0, callee: Expr(Ident(Ident { span: 3948002..3948012, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3948013..3948018, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3948022..3948025, value: 100.0, raw: Some("100") }))
+start:3948002,end:3948025
+operation:"*","accMul",left:Call(CallExpr { span: 3949100..3949117, ctxt: #0, callee: Expr(Ident(Ident { span: 3949100..3949110, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3949111..3949116, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3949120..3949123, value: 100.0, raw: Some("100") }))
+start:3949100,end:3949123
+operation:"*","accMul",left:Call(CallExpr { span: 3949263..3949280, ctxt: #0, callee: Expr(Ident(Ident { span: 3949263..3949273, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3949274..3949279, ctxt: #24, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3949283..3949286, value: 100.0, raw: Some("100") }))
+start:3949263,end:3949286

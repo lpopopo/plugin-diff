@@ -1,0 +1,2 @@
+operation:"+","accAdd",left:Ident(Ident { span: 4010480..4010485, ctxt: #4, sym: "index", optional: false }),right:Lit(Num(Number { span: 4010488..4010489, value: 1.0, raw: Some("1") }))
+start:4010480,end:4010489

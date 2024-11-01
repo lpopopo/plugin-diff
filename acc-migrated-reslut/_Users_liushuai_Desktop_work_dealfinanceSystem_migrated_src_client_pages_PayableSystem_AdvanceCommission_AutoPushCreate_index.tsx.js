@@ -1,0 +1,10 @@
+operation:"-","accSub",left:Member(MemberExpr { span: 605416..605433, obj: Ident(Ident { span: 605416..605426, ctxt: #9, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 605427..605433, sym: "length" }) }),right:Lit(Num(Number { span: 605436..605437, value: 1.0, raw: Some("1") }))
+start:605416,end:605437
+operation:"-","accSub",left:Member(MemberExpr { span: 607426..607434, obj: Ident(Ident { span: 607426..607427, ctxt: #21, sym: "t", optional: false }), prop: Ident(IdentName { span: 607428..607434, sym: "length" }) }),right:Lit(Num(Number { span: 607437..607438, value: 1.0, raw: Some("1") }))
+start:607426,end:607438
+operation:"+=","accAdd",left:BytePos(608218),right:BytePos(608218)
+start:608218,end:608242
+operation:"+","accAdd",left:Lit(Str(Str { span: 612127..612136, value: "locald_", raw: Some("\"locald_\"") })),right:Call(CallExpr { span: 612139..612152, ctxt: #0, callee: Expr(Member(MemberExpr { span: 612139..612150, obj: Ident(Ident { span: 612139..612143, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 612144..612150, sym: "random" }) })), args: [], type_args: None })
+start:612127,end:612152
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 612127..612136, value: "locald_", raw: Some("\"locald_\"") })) }, ExprOrSpread { spread: None, expr: Call(CallExpr { span: 612139..612152, ctxt: #0, callee: Expr(Member(MemberExpr { span: 612139..612150, obj: Ident(Ident { span: 612139..612143, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 612144..612150, sym: "random" }) })), args: [], type_args: None }) }], type_args: None }),right:Call(CallExpr { span: 612155..612168, ctxt: #0, callee: Expr(Member(MemberExpr { span: 612155..612166, obj: Ident(Ident { span: 612155..612159, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 612160..612166, sym: "random" }) })), args: [], type_args: None })
+start:612127,end:612168

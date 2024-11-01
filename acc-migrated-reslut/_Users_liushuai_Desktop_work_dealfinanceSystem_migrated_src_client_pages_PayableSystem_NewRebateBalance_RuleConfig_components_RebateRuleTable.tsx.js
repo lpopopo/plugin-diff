@@ -1,0 +1,12 @@
+operation:"+","accAdd",left:Lit(Str(Str { span: 3805744..3805755, value: "ruleList[", raw: Some("\"ruleList[\"") })),right:Ident(Ident { span: 3805758..3805763, ctxt: #11, sym: "index", optional: false })
+start:3805744,end:3805763
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3805744..3805755, value: "ruleList[", raw: Some("\"ruleList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3805758..3805763, ctxt: #11, sym: "index", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3805766..3805785, value: "][paramValue.min]", raw: Some("\"][paramValue.min]\"") }))
+start:3805744,end:3805785
+operation:"+","accAdd",left:Lit(Str(Str { span: 3805816..3805827, value: "ruleList[", raw: Some("\"ruleList[\"") })),right:Ident(Ident { span: 3805830..3805835, ctxt: #11, sym: "index", optional: false })
+start:3805816,end:3805835
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3805816..3805827, value: "ruleList[", raw: Some("\"ruleList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3805830..3805835, ctxt: #11, sym: "index", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3805838..3805857, value: "][paramValue.max]", raw: Some("\"][paramValue.max]\"") }))
+start:3805816,end:3805857
+operation:"+","accAdd",left:Lit(Str(Str { span: 3811672..3811683, value: "ruleList[", raw: Some("\"ruleList[\"") })),right:Ident(Ident { span: 3811686..3811691, ctxt: #11, sym: "index", optional: false })
+start:3811672,end:3811691
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3811672..3811683, value: "ruleList[", raw: Some("\"ruleList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3811686..3811691, ctxt: #11, sym: "index", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3811694..3811731, value: "][paramValue.amountAuditConfigTime]", raw: Some("\"][paramValue.amountAuditConfigTime]\"") }))
+start:3811672,end:3811731

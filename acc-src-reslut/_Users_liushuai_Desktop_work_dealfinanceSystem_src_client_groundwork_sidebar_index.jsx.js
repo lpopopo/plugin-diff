@@ -1,0 +1,2 @@
+operation:"-","accSub",left:Member(MemberExpr { span: 271949..271975, obj: Member(MemberExpr { span: 271949..271968, obj: Member(MemberExpr { span: 271949..271959, obj: This(ThisExpr { span: 271949..271953 }), prop: Ident(IdentName { span: 271954..271959, sym: "state" }) }), prop: Ident(IdentName { span: 271960..271968, sym: "openKeys" }) }), prop: Ident(IdentName { span: 271969..271975, sym: "length" }) }),right:Lit(Num(Number { span: 271978..271979, value: 1.0, raw: Some("1") }))
+start:271949,end:271979

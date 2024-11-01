@@ -1,0 +1,4 @@
+operation:"+","accAdd",left:Ident(Ident { span: 17251..17256, ctxt: #5, sym: "index", optional: false }),right:Lit(Num(Number { span: 17259..17260, value: 2.0, raw: Some("2") }))
+start:17251,end:17260
+operation:"/","accDiv",left:Paren(ParenExpr { span: 17250..17261, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 17251..17256, ctxt: #5, sym: "index", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 17259..17260, value: 2.0, raw: Some("2") })) }], type_args: None }) }),right:Lit(Num(Number { span: 17264..17265, value: 2.0, raw: Some("2") }))
+start:17250,end:17265

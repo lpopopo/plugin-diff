@@ -1,0 +1,2 @@
+operation:"+","accAdd",left:Ident(Ident { span: 1373322..1373326, ctxt: #13, sym: "type", optional: false }),right:Lit(Str(Str { span: 1373329..1373336, value: "EvtId", raw: Some("\"EvtId\"") }))
+start:1373322,end:1373336

@@ -1,0 +1,2 @@
+operation:"+","accAdd",left:Ident(Ident { span: 4094721..4094726, ctxt: #3, sym: "value", optional: false }),right:Lit(Str(Str { span: 4094729..4094737, value: "元", raw: Some("\"\\u5143\"") }))
+start:4094721,end:4094737

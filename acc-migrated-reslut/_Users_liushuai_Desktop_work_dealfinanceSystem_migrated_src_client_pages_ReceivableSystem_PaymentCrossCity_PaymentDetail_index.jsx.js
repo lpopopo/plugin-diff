@@ -1,0 +1,4 @@
+operation:"+=","accAdd",left:BytePos(793812),right:BytePos(793812)
+start:793812,end:793818
+operation:"-","accSub",left:Member(MemberExpr { span: 817741..817753, obj: Ident(Ident { span: 817741..817746, ctxt: #95, sym: "value", optional: false }), prop: Ident(IdentName { span: 817747..817753, sym: "length" }) }),right:Call(CallExpr { span: 817756..817774, ctxt: #0, callee: Expr(Member(MemberExpr { span: 817756..817769, obj: Ident(Ident { span: 817756..817761, ctxt: #95, sym: "value", optional: false }), prop: Ident(IdentName { span: 817762..817769, sym: "indexOf" }) })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 817770..817773, value: ".", raw: Some("'.'") })) }], type_args: None })
+start:817741,end:817774

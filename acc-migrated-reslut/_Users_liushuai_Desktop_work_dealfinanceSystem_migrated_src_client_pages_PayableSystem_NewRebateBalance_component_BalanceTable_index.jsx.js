@@ -1,0 +1,12 @@
+operation:"+","accAdd",left:Member(MemberExpr { span: 2188032..2188054, obj: Member(MemberExpr { span: 2188032..2188047, obj: Ident(Ident { span: 2188032..2188038, ctxt: #53, sym: "record", optional: false }), prop: Ident(IdentName { span: 2188039..2188047, sym: "children" }) }), prop: Ident(IdentName { span: 2188048..2188054, sym: "length" }) }),right:Lit(Num(Number { span: 2188057..2188058, value: 1.0, raw: Some("1") }))
+start:2188032,end:2188058
+operation:"/","accDiv",left:Ident(Ident { span: 2193476..2193481, ctxt: #71, sym: "value", optional: false }),right:Lit(Num(Number { span: 2193484..2193487, value: 100.0, raw: Some("100") }))
+start:2193476,end:2193487
+operation:"*","accMul",left:Call(CallExpr { span: 2195773..2195790, ctxt: #0, callee: Expr(Ident(Ident { span: 2195773..2195783, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 2195784..2195789, ctxt: #77, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 2195793..2195796, value: 100.0, raw: Some("100") }))
+start:2195773,end:2195796
+operation:"*","accMul",left:Call(CallExpr { span: 2196905..2196922, ctxt: #0, callee: Expr(Ident(Ident { span: 2196905..2196915, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 2196916..2196921, ctxt: #77, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 2196925..2196928, value: 100.0, raw: Some("100") }))
+start:2196905,end:2196928
+operation:"*","accMul",left:Call(CallExpr { span: 2198114..2198131, ctxt: #0, callee: Expr(Ident(Ident { span: 2198114..2198124, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 2198125..2198130, ctxt: #77, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 2198134..2198137, value: 100.0, raw: Some("100") }))
+start:2198114,end:2198137
+operation:"*","accMul",left:Call(CallExpr { span: 2198241..2198258, ctxt: #0, callee: Expr(Ident(Ident { span: 2198241..2198251, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 2198252..2198257, ctxt: #77, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 2198261..2198264, value: 100.0, raw: Some("100") }))
+start:2198241,end:2198264

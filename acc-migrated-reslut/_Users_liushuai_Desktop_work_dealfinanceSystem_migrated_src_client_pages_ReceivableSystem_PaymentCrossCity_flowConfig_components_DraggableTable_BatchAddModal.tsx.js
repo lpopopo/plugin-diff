@@ -1,0 +1,4 @@
+operation:"-","accSub",left:Member(MemberExpr { span: 4014644..4014652, obj: Ident(Ident { span: 4014644..4014645, ctxt: #17, sym: "t", optional: false }), prop: Ident(IdentName { span: 4014646..4014652, sym: "length" }) }),right:Lit(Num(Number { span: 4014655..4014656, value: 1.0, raw: Some("1") }))
+start:4014644,end:4014656
+operation:"-","accSub",left:Member(MemberExpr { span: 4018101..4018119, obj: Call(CallExpr { span: 4018101..4018112, ctxt: #0, callee: Expr(Member(MemberExpr { span: 4018101..4018110, obj: Ident(Ident { span: 4018101..4018105, ctxt: #47, sym: "keys", optional: false }), prop: Ident(IdentName { span: 4018106..4018110, sym: "sort" }) })), args: [], type_args: None }), prop: Ident(IdentName { span: 4018113..4018119, sym: "length" }) }),right:Lit(Num(Number { span: 4018122..4018123, value: 1.0, raw: Some("1") }))
+start:4018101,end:4018123

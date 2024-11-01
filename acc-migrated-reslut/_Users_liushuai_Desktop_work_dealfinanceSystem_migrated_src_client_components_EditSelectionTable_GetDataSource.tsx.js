@@ -1,0 +1,4 @@
+operation:"-","accSub",left:Member(MemberExpr { span: 4122998..4123015, obj: Ident(Ident { span: 4122998..4123008, ctxt: #9, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 4123009..4123015, sym: "length" }) }),right:Lit(Num(Number { span: 4123018..4123019, value: 1.0, raw: Some("1") }))
+start:4122998,end:4123019
+operation:"-","accSub",left:Member(MemberExpr { span: 4125008..4125016, obj: Ident(Ident { span: 4125008..4125009, ctxt: #21, sym: "t", optional: false }), prop: Ident(IdentName { span: 4125010..4125016, sym: "length" }) }),right:Lit(Num(Number { span: 4125019..4125020, value: 1.0, raw: Some("1") }))
+start:4125008,end:4125020

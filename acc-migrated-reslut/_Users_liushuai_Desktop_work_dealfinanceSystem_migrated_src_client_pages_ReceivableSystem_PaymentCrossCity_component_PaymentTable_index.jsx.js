@@ -1,0 +1,2 @@
+operation:"/","accDiv",left:Paren(ParenExpr { span: 2961373..2961385, expr: Bin(BinExpr { span: 2961374..2961384, op: "||", left: Ident(Ident { span: 2961374..2961379, ctxt: #46, sym: "value", optional: false }), right: Lit(Num(Number { span: 2961383..2961384, value: 0.0, raw: Some("0") })) }) }),right:Lit(Num(Number { span: 2961388..2961391, value: 100.0, raw: Some("100") }))
+start:2961373,end:2961391
