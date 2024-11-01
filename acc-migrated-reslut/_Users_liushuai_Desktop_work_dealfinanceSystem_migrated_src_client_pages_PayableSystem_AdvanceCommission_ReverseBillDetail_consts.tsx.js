@@ -1,0 +1,2 @@
+operation:+,accAdd,left:{"type":"Identifier","start":1390,"end":1395,"loc":{"start":{"line":21,"column":59},"end":{"line":21,"column":64},"identifierName":"index"},"name":"index"},right:{"type":"StringLiteral","start":1398,"end":1406,"loc":{"start":{"line":21,"column":67},"end":{"line":21,"column":75}},"extra":{"rawValue":"abcdef","raw":"\"abcdef\""},"value":"abcdef"}
+start:21,end:21

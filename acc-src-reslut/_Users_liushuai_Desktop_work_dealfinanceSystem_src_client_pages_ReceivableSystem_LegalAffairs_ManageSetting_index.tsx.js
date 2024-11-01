@@ -1,0 +1,5 @@
+operation:+=,accAdd,start:26,end:26
+operation:+,accAdd,left:{"type":"Identifier","start":3650,"end":3655,"loc":{"start":{"line":92,"column":28,"index":3650},"end":{"line":92,"column":33,"index":3655},"identifierName":"value"},"name":"value"},right:{"type":"NumericLiteral","start":3658,"end":3660,"loc":{"start":{"line":92,"column":36,"index":3658},"end":{"line":92,"column":38,"index":3660}},"extra":{"rawValue":30,"raw":"30"},"value":30}
+start:92,end:92
+operation:+,accAdd,left:{"type":"Identifier","start":8328,"end":8342,"loc":{"start":{"line":198,"column":20,"index":8328},"end":{"line":198,"column":34,"index":8342},"identifierName":"fahanInitValue"},"name":"fahanInitValue"},right:{"type":"NumericLiteral","start":8345,"end":8347,"loc":{"start":{"line":198,"column":37,"index":8345},"end":{"line":198,"column":39,"index":8347}},"extra":{"rawValue":30,"raw":"30"},"value":30}
+start:198,end:198

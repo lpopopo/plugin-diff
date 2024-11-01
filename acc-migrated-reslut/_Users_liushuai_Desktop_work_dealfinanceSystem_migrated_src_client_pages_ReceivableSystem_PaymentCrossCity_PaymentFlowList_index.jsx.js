@@ -1,0 +1,2 @@
+operation:-,accSub,left:{"type":"Identifier","start":3684,"end":3700,"loc":{"start":{"line":105,"column":61},"end":{"line":105,"column":77},"identifierName":"EXPORT_MAX_RANGE"},"name":"EXPORT_MAX_RANGE"},right:{"type":"NumericLiteral","start":3703,"end":3704,"loc":{"start":{"line":105,"column":80},"end":{"line":105,"column":81}},"extra":{"rawValue":1,"raw":"1"},"value":1}
+start:105,end:105

@@ -1,0 +1,2 @@
+operation:+,accAdd,left:{"type":"Identifier","start":1007,"end":1012,"loc":{"start":{"line":35,"column":49,"index":1007},"end":{"line":35,"column":54,"index":1012},"identifierName":"index"},"name":"index"},right:{"type":"NumericLiteral","start":1015,"end":1016,"loc":{"start":{"line":35,"column":57,"index":1015},"end":{"line":35,"column":58,"index":1016}},"extra":{"rawValue":1,"raw":"1"},"value":1}
+start:35,end:35

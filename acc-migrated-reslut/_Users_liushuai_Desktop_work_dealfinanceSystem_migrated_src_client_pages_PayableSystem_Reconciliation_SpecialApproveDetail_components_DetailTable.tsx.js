@@ -1,0 +1,4 @@
+operation:+,accAdd,left:{"type":"StringLiteral","start":6005,"end":6013,"loc":{"start":{"line":145,"column":53},"end":{"line":145,"column":61}},"value":"共"},right:{"type":"Identifier","start":6016,"end":6021,"loc":{"start":{"line":145,"column":64},"end":{"line":145,"column":69},"identifierName":"total"},"name":"total"}
+start:145,end:145
+operation:+,accAdd,left:{"type":"CallExpression","callee":{"type":"Identifier","name":"accAdd"},"arguments":[{"type":"StringLiteral","start":6005,"end":6013,"loc":{"start":{"line":145,"column":53},"end":{"line":145,"column":61}},"value":"共"},{"type":"Identifier","start":6016,"end":6021,"loc":{"start":{"line":145,"column":64},"end":{"line":145,"column":69},"identifierName":"total"},"name":"total"}],"trailingComments":[],"leadingComments":[],"innerComments":[]},right:{"type":"StringLiteral","start":6024,"end":6044,"loc":{"start":{"line":145,"column":72},"end":{"line":145,"column":92}},"value":"条记录"}
+start:145,end:145

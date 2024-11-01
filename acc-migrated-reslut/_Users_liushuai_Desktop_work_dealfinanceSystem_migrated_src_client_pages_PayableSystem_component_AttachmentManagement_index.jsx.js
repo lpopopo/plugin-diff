@@ -1,0 +1,4 @@
+operation:+=,accAdd,start:277,end:277
+operation:*,accMul,left:{"type":"CallExpression","start":10005,"end":10018,"loc":{"start":{"line":278,"column":47},"end":{"line":278,"column":60}},"callee":{"type":"MemberExpression","start":10005,"end":10016,"loc":{"start":{"line":278,"column":47},"end":{"line":278,"column":58}},"object":{"type":"Identifier","start":10005,"end":10009,"loc":{"start":{"line":278,"column":47},"end":{"line":278,"column":51},"identifierName":"Math"},"name":"Math"},"computed":false,"property":{"type":"Identifier","start":10010,"end":10016,"loc":{"start":{"line":278,"column":52},"end":{"line":278,"column":58},"identifierName":"random"},"name":"random"}},"arguments":[]},right:{"type":"NumericLiteral","start":10021,"end":10025,"loc":{"start":{"line":278,"column":63},"end":{"line":278,"column":67}},"extra":{"rawValue":16,"raw":"0x10"},"value":16}
+start:278,end:278
+operation:-=,accSub,start:298,end:298
