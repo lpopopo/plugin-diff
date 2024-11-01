@@ -1,0 +1,4 @@
+operation:+=,accAdd,start:740,end:740
+operation:*,accMul,left:{"type":"CallExpression","start":30283,"end":30296,"loc":{"start":{"line":741,"column":47},"end":{"line":741,"column":60}},"callee":{"type":"MemberExpression","start":30283,"end":30294,"loc":{"start":{"line":741,"column":47},"end":{"line":741,"column":58}},"object":{"type":"Identifier","start":30283,"end":30287,"loc":{"start":{"line":741,"column":47},"end":{"line":741,"column":51},"identifierName":"Math"},"name":"Math"},"computed":false,"property":{"type":"Identifier","start":30288,"end":30294,"loc":{"start":{"line":741,"column":52},"end":{"line":741,"column":58},"identifierName":"random"},"name":"random"}},"arguments":[]},right:{"type":"NumericLiteral","start":30299,"end":30303,"loc":{"start":{"line":741,"column":63},"end":{"line":741,"column":67}},"extra":{"rawValue":16,"raw":"0x10"},"value":16}
+start:741,end:741
+operation:-=,accSub,start:798,end:798

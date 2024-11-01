@@ -1,0 +1,2 @@
+operation:+,accAdd,left:{"type":"Identifier","start":3727,"end":3734,"loc":{"start":{"line":118,"column":80},"end":{"line":118,"column":87},"identifierName":"account"},"name":"account"},right:{"type":"UpdateExpression","start":3737,"end":3740,"loc":{"start":{"line":118,"column":90},"end":{"line":118,"column":93}},"operator":"++","prefix":false,"argument":{"type":"Identifier","start":3737,"end":3738,"loc":{"start":{"line":118,"column":90},"end":{"line":118,"column":91},"identifierName":"a"},"name":"a"}}
+start:118,end:118

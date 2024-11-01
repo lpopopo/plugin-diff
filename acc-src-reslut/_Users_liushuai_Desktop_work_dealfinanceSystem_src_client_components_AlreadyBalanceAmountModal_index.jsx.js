@@ -1,0 +1,6 @@
+operation:+,accAdd,left:{"type":"Identifier","start":1272,"end":1277,"loc":{"start":{"line":46,"column":49,"index":1272},"end":{"line":46,"column":54,"index":1277},"identifierName":"index"},"name":"index"},right:{"type":"NumericLiteral","start":1280,"end":1281,"loc":{"start":{"line":46,"column":57,"index":1280},"end":{"line":46,"column":58,"index":1281}},"extra":{"rawValue":1,"raw":"1"},"value":1}
+start:46,end:46
+operation:+,accAdd,left:{"type":"Identifier","start":2670,"end":2675,"loc":{"start":{"line":84,"column":49,"index":2670},"end":{"line":84,"column":54,"index":2675},"identifierName":"index"},"name":"index"},right:{"type":"NumericLiteral","start":2678,"end":2679,"loc":{"start":{"line":84,"column":57,"index":2678},"end":{"line":84,"column":58,"index":2679}},"extra":{"rawValue":1,"raw":"1"},"value":1}
+start:84,end:84
+operation:+,accAdd,left:{"type":"Identifier","start":4093,"end":4098,"loc":{"start":{"line":122,"column":49,"index":4093},"end":{"line":122,"column":54,"index":4098},"identifierName":"index"},"name":"index"},right:{"type":"NumericLiteral","start":4101,"end":4102,"loc":{"start":{"line":122,"column":57,"index":4101},"end":{"line":122,"column":58,"index":4102}},"extra":{"rawValue":1,"raw":"1"},"value":1}
+start:122,end:122

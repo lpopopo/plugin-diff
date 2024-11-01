@@ -1,0 +1,3 @@
+operation:+=,accAdd,start:13,end:13
+operation:+,accAdd,left:{"type":"StringLiteral","start":11206,"end":11244,"loc":{"start":{"line":230,"column":55},"end":{"line":230,"column":93}},"value":"分佣批次号："},right:{"type":"MemberExpression","start":11247,"end":11264,"loc":{"start":{"line":230,"column":96},"end":{"line":230,"column":113}},"object":{"type":"Identifier","start":11247,"end":11251,"loc":{"start":{"line":230,"column":96},"end":{"line":230,"column":100},"identifierName":"data"},"name":"data"},"computed":false,"property":{"type":"Identifier","start":11252,"end":11264,"loc":{"start":{"line":230,"column":101},"end":{"line":230,"column":113},"identifierName":"balanceSeqId"},"name":"balanceSeqId"}}
+start:230,end:230
