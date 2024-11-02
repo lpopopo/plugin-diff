@@ -9,5 +9,5 @@ operation:/,accDiv
 operation:-,accSub
 operation:-,accSub
 operation:+,accAdd
-operation:/,accDiv
 operation:+=,accAdd
+operation:/,accDiv

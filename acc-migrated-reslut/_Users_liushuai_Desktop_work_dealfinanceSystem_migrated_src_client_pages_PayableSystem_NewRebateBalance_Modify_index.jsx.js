@@ -1,6 +1,9 @@
 operation:/,accDiv
 operation:/,accDiv
 operation:/,accDiv
+operation:/=,accDiv
+operation:/=,accDiv
+operation:/=,accDiv
 operation:*,accMul
 operation:+,accAdd
 operation:-,accSub
