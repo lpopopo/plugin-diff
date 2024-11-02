@@ -1,0 +1,2 @@
+operation:*,accMul
+operation:+,accAdd

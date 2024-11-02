@@ -1,0 +1,15 @@
+operation:-,accSub
+operation:*,accMul
+operation:-,accSub
+operation:+,accAdd
+operation:*,accMul
+operation:/,accDiv
+operation:-,accSub
+operation:+,accAdd
+operation:/,accDiv
+operation:-,accSub
+operation:-,accSub
+operation:/,accDiv
+operation:-,accSub
+operation:/,accDiv
+operation:-,accSub
