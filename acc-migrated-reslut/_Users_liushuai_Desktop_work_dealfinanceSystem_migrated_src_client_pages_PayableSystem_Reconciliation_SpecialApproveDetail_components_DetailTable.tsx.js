@@ -1,4 +1,4 @@
-operation:+,accAdd,left:{"type":"StringLiteral","start":6005,"end":6013,"loc":{"start":{"line":145,"column":53},"end":{"line":145,"column":61}},"value":"共"},right:{"type":"Identifier","start":6016,"end":6021,"loc":{"start":{"line":145,"column":64},"end":{"line":145,"column":69},"identifierName":"total"},"name":"total"}
-start:145,end:145
-operation:+,accAdd,left:{"type":"CallExpression","callee":{"type":"Identifier","name":"accAdd"},"arguments":[{"type":"StringLiteral","start":6005,"end":6013,"loc":{"start":{"line":145,"column":53},"end":{"line":145,"column":61}},"value":"共"},{"type":"Identifier","start":6016,"end":6021,"loc":{"start":{"line":145,"column":64},"end":{"line":145,"column":69},"identifierName":"total"},"name":"total"}],"trailingComments":[],"leadingComments":[],"innerComments":[]},right:{"type":"StringLiteral","start":6024,"end":6044,"loc":{"start":{"line":145,"column":72},"end":{"line":145,"column":92}},"value":"条记录"}
-start:145,end:145
+operation:"+","accAdd",left:Lit(Str(Str { span: 2005543..2005551, value: "共", raw: Some("\"\\u5171\"") })),right:Ident(Ident { span: 2005554..2005559, ctxt: #14, sym: "total", optional: false })
+start:2005543,end:2005559
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2005543..2005551, value: "共", raw: Some("\"\\u5171\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2005554..2005559, ctxt: #14, sym: "total", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2005562..2005582, value: "条记录", raw: Some("\"\\u6761\\u8BB0\\u5F55\"") }))
+start:2005543,end:2005582

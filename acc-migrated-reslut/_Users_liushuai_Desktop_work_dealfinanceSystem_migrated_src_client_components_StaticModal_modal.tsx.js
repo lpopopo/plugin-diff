@@ -1,3 +1,4 @@
-operation:+=,accAdd,start:24,end:24
-operation:+,accAdd,left:{"type":"Identifier","start":3925,"end":3934,"loc":{"start":{"line":60,"column":82},"end":{"line":60,"column":91},"identifierName":"prefixCls"},"name":"prefixCls"},right:{"type":"StringLiteral","start":3937,"end":3948,"loc":{"start":{"line":60,"column":94},"end":{"line":60,"column":105}},"extra":{"rawValue":"-centered","raw":"\"-centered\""},"value":"-centered"}
-start:60,end:60
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 3542760..3542761, ctxt: #8, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 3542765..3542784, obj: Member(MemberExpr { span: 3542765..3542777, obj: Ident(Ident { span: 3542765..3542774, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 3542774..3542777, expr: Ident(Ident { span: 3542775..3542776, ctxt: #8, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 3542778..3542784, sym: "length" }) })
+start:3542760,end:3542784
+operation:"+","accAdd",left:Ident(Ident { span: 3545900..3545909, ctxt: #9, sym: "prefixCls", optional: false }),right:Lit(Str(Str { span: 3545912..3545923, value: "-centered", raw: Some("\"-centered\"") }))
+start:3545900,end:3545923

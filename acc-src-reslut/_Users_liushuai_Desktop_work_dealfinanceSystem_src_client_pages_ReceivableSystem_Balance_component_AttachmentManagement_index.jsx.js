@@ -1,4 +1,6 @@
-operation:+=,accAdd,start:494,end:494
-operation:*,accMul,left:{"type":"CallExpression","start":18953,"end":18966,"loc":{"start":{"line":495,"column":47,"index":18953},"end":{"line":495,"column":60,"index":18966}},"callee":{"type":"MemberExpression","start":18953,"end":18964,"loc":{"start":{"line":495,"column":47,"index":18953},"end":{"line":495,"column":58,"index":18964}},"object":{"type":"Identifier","start":18953,"end":18957,"loc":{"start":{"line":495,"column":47,"index":18953},"end":{"line":495,"column":51,"index":18957},"identifierName":"Math"},"name":"Math"},"computed":false,"property":{"type":"Identifier","start":18958,"end":18964,"loc":{"start":{"line":495,"column":52,"index":18958},"end":{"line":495,"column":58,"index":18964},"identifierName":"random"},"name":"random"}},"arguments":[]},right:{"type":"NumericLiteral","start":18969,"end":18973,"loc":{"start":{"line":495,"column":63,"index":18969},"end":{"line":495,"column":67,"index":18973}},"extra":{"rawValue":16,"raw":"0x10"},"value":16}
-start:495,end:495
-operation:-=,accSub,start:515,end:515
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 394626..394627, ctxt: #51, sym: "i", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 394631..394632, value: 1.0, raw: Some("1") }))
+start:394626,end:394632
+operation:"*","accMul",left:Call(CallExpr { span: 394683..394696, ctxt: #0, callee: Expr(Member(MemberExpr { span: 394683..394694, obj: Ident(Ident { span: 394683..394687, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 394688..394694, sym: "random" }) })), args: [], type_args: None }),right:Lit(Num(Number { span: 394699..394703, value: 16.0, raw: Some("0x10") }))
+start:394683,end:394703
+operation:"-=","accSub",left:Simple(Ident(BindingIdent { id: Ident { span: 395258..395261, ctxt: #54, sym: "num", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 395265..395266, value: 1.0, raw: Some("1") }))
+start:395258,end:395266

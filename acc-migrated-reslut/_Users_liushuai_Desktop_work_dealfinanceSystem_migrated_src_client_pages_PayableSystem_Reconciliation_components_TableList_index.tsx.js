@@ -1,3 +1,4 @@
-operation:+,accAdd,left:{"type":"Identifier","start":252,"end":262,"loc":{"start":{"line":8,"column":58},"end":{"line":8,"column":68},"identifierName":"startIndex"},"name":"startIndex"},right:{"type":"NumericLiteral","start":265,"end":266,"loc":{"start":{"line":8,"column":71},"end":{"line":8,"column":72}},"extra":{"rawValue":3,"raw":"3"},"value":3}
-start:8,end:8
-operation:+=,accAdd,start:9,end:9
+operation:"+","accAdd",left:Ident(Ident { span: 2020347..2020357, ctxt: #3, sym: "startIndex", optional: false }),right:Lit(Num(Number { span: 2020360..2020361, value: 3.0, raw: Some("3") }))
+start:2020347,end:2020361
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 2020372..2020382, ctxt: #3, sym: "startIndex", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 2020386..2020387, value: 3.0, raw: Some("3") }))
+start:2020372,end:2020387

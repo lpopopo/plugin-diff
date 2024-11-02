@@ -1,2 +1,2 @@
-operation:+,accAdd,left:{"type":"StringLiteral","start":7970,"end":7977,"loc":{"start":{"line":295,"column":88},"end":{"line":295,"column":95}},"extra":{"rawValue":"audit","raw":"\"audit\""},"value":"audit"},right:{"type":"Identifier","start":7980,"end":7981,"loc":{"start":{"line":295,"column":98},"end":{"line":295,"column":99},"identifierName":"i"},"name":"i"}
-start:295,end:295
+operation:"+","accAdd",left:Lit(Str(Str { span: 1730211..1730218, value: "audit", raw: Some("\"audit\"") })),right:Ident(Ident { span: 1730221..1730222, ctxt: #18, sym: "i", optional: false })
+start:1730211,end:1730222

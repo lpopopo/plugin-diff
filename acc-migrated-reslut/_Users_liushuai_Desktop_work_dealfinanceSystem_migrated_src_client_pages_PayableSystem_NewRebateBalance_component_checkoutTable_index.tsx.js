@@ -1,5 +1,6 @@
-operation:-,accSub,left:{"type":"MemberExpression","start":1029,"end":1046,"loc":{"start":{"line":20,"column":22},"end":{"line":20,"column":39}},"object":{"type":"Identifier","start":1029,"end":1039,"loc":{"start":{"line":20,"column":22},"end":{"line":20,"column":32},"identifierName":"decorators"},"name":"decorators"},"computed":false,"property":{"type":"Identifier","start":1040,"end":1046,"loc":{"start":{"line":20,"column":33},"end":{"line":20,"column":39},"identifierName":"length"},"name":"length"}},right:{"type":"NumericLiteral","start":1049,"end":1050,"loc":{"start":{"line":20,"column":42},"end":{"line":20,"column":43}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:20,end:20
-operation:+=,accAdd,start:242,end:242
-operation:/,accDiv,left:{"type":"Identifier","start":11170,"end":11173,"loc":{"start":{"line":248,"column":35},"end":{"line":248,"column":38},"identifierName":"sum"},"name":"sum"},right:{"type":"NumericLiteral","start":11176,"end":11179,"loc":{"start":{"line":248,"column":41},"end":{"line":248,"column":44}},"extra":{"rawValue":100,"raw":"100"},"value":100}
-start:248,end:248
+operation:"-","accSub",left:Member(MemberExpr { span: 1744330..1744347, obj: Ident(Ident { span: 1744330..1744340, ctxt: #9, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 1744341..1744347, sym: "length" }) }),right:Lit(Num(Number { span: 1744350..1744351, value: 1.0, raw: Some("1") }))
+start:1744330,end:1744351
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 1754381..1754384, ctxt: #37, sym: "sum", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 1754388..1754417, obj: Member(MemberExpr { span: 1754388..1754412, obj: Member(MemberExpr { span: 1754388..1754407, obj: Ident(Ident { span: 1754388..1754393, ctxt: #25, sym: "_this", optional: false }), prop: Ident(IdentName { span: 1754394..1754407, sym: "selectedStore" }) }), prop: Computed(ComputedPropName { span: 1754407..1754412, expr: Ident(Ident { span: 1754408..1754411, ctxt: #38, sym: "key", optional: false }) }) }), prop: Ident(IdentName { span: 1754413..1754417, sym: "data" }) })
+start:1754381,end:1754417
+operation:"/","accDiv",left:Ident(Ident { span: 1754697..1754700, ctxt: #37, sym: "sum", optional: false }),right:Lit(Num(Number { span: 1754703..1754706, value: 100.0, raw: Some("100") }))
+start:1754697,end:1754706

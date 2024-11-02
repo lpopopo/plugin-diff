@@ -1,2 +1,2 @@
-operation:*,accMul,left:{"type":"Identifier","start":567,"end":575,"loc":{"start":{"line":18,"column":51},"end":{"line":18,"column":59},"identifierName":"newValue"},"name":"newValue"},right:{"type":"NumericLiteral","start":578,"end":581,"loc":{"start":{"line":18,"column":62},"end":{"line":18,"column":65}},"extra":{"rawValue":100,"raw":"100"},"value":100}
-start:18,end:18
+operation:"*","accMul",left:Ident(Ident { span: 4164280..4164288, ctxt: #4, sym: "newValue", optional: false }),right:Lit(Num(Number { span: 4164291..4164294, value: 100.0, raw: Some("100") }))
+start:4164280,end:4164294

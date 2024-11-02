@@ -1,4 +1,6 @@
-operation:+=,accAdd,start:31,end:31
-operation:/,accDiv,left:{"type":"Identifier","start":1765,"end":1768,"loc":{"start":{"line":49,"column":54},"end":{"line":49,"column":57},"identifierName":"sum"},"name":"sum"},right:{"type":"NumericLiteral","start":1771,"end":1774,"loc":{"start":{"line":49,"column":60},"end":{"line":49,"column":63}},"extra":{"rawValue":100,"raw":"100"},"value":100}
-start:49,end:49
-operation:+=,accAdd,start:216,end:216
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 3895039..3895042, ctxt: #8, sym: "sum", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 3895046..3895055, obj: Ident(Ident { span: 3895046..3895050, ctxt: #11, sym: "item", optional: false }), prop: Ident(IdentName { span: 3895051..3895055, sym: "data" }) })
+start:3895039,end:3895055
+operation:"/","accDiv",left:Ident(Ident { span: 3895879..3895882, ctxt: #8, sym: "sum", optional: false }),right:Lit(Num(Number { span: 3895885..3895888, value: 100.0, raw: Some("100") }))
+start:3895879,end:3895888
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 3902724..3902727, ctxt: #43, sym: "sum", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 3902731..3902744, obj: Ident(Ident { span: 3902731..3902735, ctxt: #44, sym: "item", optional: false }), prop: Computed(ComputedPropName { span: 3902735..3902744, expr: Ident(Ident { span: 3902736..3902743, ctxt: #3, sym: "keyName", optional: false }) }) })
+start:3902724,end:3902744

@@ -1,2 +1,2 @@
-operation:+,accAdd,left:{"type":"StringLiteral","start":1679,"end":1719,"loc":{"start":{"line":23,"column":43},"end":{"line":23,"column":83}},"value":"应付款计划ID："},right:{"type":"Identifier","start":1722,"end":1739,"loc":{"start":{"line":23,"column":86},"end":{"line":23,"column":103},"identifierName":"outerRebatePlanId"},"name":"outerRebatePlanId"}
-start:23,end:23
+operation:"+","accAdd",left:Lit(Str(Str { span: 281825..281865, value: "应付款计划ID：", raw: Some("\"\\u5E94\\u4ED8\\u6B3E\\u8BA1\\u5212ID\\uFF1A\"") })),right:Ident(Ident { span: 281868..281885, ctxt: #3, sym: "outerRebatePlanId", optional: false })
+start:281825,end:281885

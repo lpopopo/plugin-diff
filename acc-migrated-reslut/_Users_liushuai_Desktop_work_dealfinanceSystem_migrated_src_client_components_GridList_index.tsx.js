@@ -1,7 +1,8 @@
-operation:/,accDiv,left:{"type":"NumericLiteral","start":1008,"end":1010,"loc":{"start":{"line":26,"column":30},"end":{"line":26,"column":32}},"extra":{"rawValue":24,"raw":"24"},"value":24},right:{"type":"Identifier","start":1013,"end":1017,"loc":{"start":{"line":26,"column":35},"end":{"line":26,"column":39},"identifierName":"cols"},"name":"cols"}
-start:26,end:26
-operation:/,accDiv,left:{"type":"CallExpression","callee":{"type":"Identifier","name":"accDiv"},"arguments":[{"type":"NumericLiteral","start":1008,"end":1010,"loc":{"start":{"line":26,"column":30},"end":{"line":26,"column":32}},"extra":{"rawValue":24,"raw":"24"},"value":24},{"type":"Identifier","start":1013,"end":1017,"loc":{"start":{"line":26,"column":35},"end":{"line":26,"column":39},"identifierName":"cols"},"name":"cols"}],"trailingComments":[],"leadingComments":[],"innerComments":[]},right:{"type":"NumericLiteral","start":1020,"end":1021,"loc":{"start":{"line":26,"column":42},"end":{"line":26,"column":43}},"extra":{"rawValue":2,"raw":"2"},"value":2}
-start:26,end:26
-operation:/,accDiv,left:{"type":"MemberExpression","start":1054,"end":1065,"loc":{"start":{"line":27,"column":30},"end":{"line":27,"column":41}},"object":{"type":"Identifier","start":1054,"end":1058,"loc":{"start":{"line":27,"column":30},"end":{"line":27,"column":34},"identifierName":"data"},"name":"data"},"computed":false,"property":{"type":"Identifier","start":1059,"end":1065,"loc":{"start":{"line":27,"column":35},"end":{"line":27,"column":41},"identifierName":"length"},"name":"length"}},right:{"type":"Identifier","start":1068,"end":1072,"loc":{"start":{"line":27,"column":44},"end":{"line":27,"column":48},"identifierName":"cols"},"name":"cols"}
-start:27,end:27
-operation:+=,accAdd,start:44,end:44
+operation:"/","accDiv",left:Lit(Num(Number { span: 2454670..2454672, value: 24.0, raw: Some("24") })),right:Ident(Ident { span: 2454675..2454679, ctxt: #11, sym: "cols", optional: false })
+start:2454670,end:2454679
+operation:"/","accDiv",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accDiv", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 2454670..2454672, value: 24.0, raw: Some("24") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2454675..2454679, ctxt: #11, sym: "cols", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 2454682..2454683, value: 2.0, raw: Some("2") }))
+start:2454670,end:2454683
+operation:"/","accDiv",left:Member(MemberExpr { span: 2454716..2454727, obj: Ident(Ident { span: 2454716..2454720, ctxt: #11, sym: "data", optional: false }), prop: Ident(IdentName { span: 2454721..2454727, sym: "length" }) }),right:Ident(Ident { span: 2454730..2454734, ctxt: #11, sym: "cols", optional: false })
+start:2454716,end:2454734
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 2455827..2455830, ctxt: #11, sym: "idx", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 2455834..2455835, value: 1.0, raw: Some("1") }))
+start:2455827,end:2455835

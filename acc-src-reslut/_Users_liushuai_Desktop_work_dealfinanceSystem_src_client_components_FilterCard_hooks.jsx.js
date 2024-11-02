@@ -1,5 +1,8 @@
-operation:+=,accAdd,start:189,end:189
-operation:+=,accAdd,start:281,end:281
-operation:-=,accSub,start:285,end:285
-operation:+,accAdd,left:{"type":"Identifier","start":11285,"end":11295,"loc":{"start":{"line":306,"column":22,"index":11285},"end":{"line":306,"column":32,"index":11295},"identifierName":"clickCount"},"name":"clickCount"},right:{"type":"NumericLiteral","start":11298,"end":11299,"loc":{"start":{"line":306,"column":35,"index":11298},"end":{"line":306,"column":36,"index":11299}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:306,end:306
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 346671..346672, ctxt: #22, sym: "i", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 346676..346677, value: 1.0, raw: Some("1") }))
+start:346671,end:346677
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 350835..350836, ctxt: #35, sym: "i", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 350840..350841, value: 1.0, raw: Some("1") }))
+start:350835,end:350841
+operation:"-=","accSub",left:Simple(Ident(BindingIdent { id: Ident { span: 350971..350972, ctxt: #35, sym: "i", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 350976..350977, value: 1.0, raw: Some("1") }))
+start:350971,end:350977
+operation:"+","accAdd",left:Ident(Ident { span: 351741..351751, ctxt: #5, sym: "clickCount", optional: false }),right:Lit(Num(Number { span: 351754..351755, value: 1.0, raw: Some("1") }))
+start:351741,end:351755

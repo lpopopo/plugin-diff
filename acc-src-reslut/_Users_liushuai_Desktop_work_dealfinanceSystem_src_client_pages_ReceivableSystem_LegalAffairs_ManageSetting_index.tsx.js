@@ -1,5 +1,6 @@
-operation:+=,accAdd,start:26,end:26
-operation:+,accAdd,left:{"type":"Identifier","start":3650,"end":3655,"loc":{"start":{"line":92,"column":28,"index":3650},"end":{"line":92,"column":33,"index":3655},"identifierName":"value"},"name":"value"},right:{"type":"NumericLiteral","start":3658,"end":3660,"loc":{"start":{"line":92,"column":36,"index":3658},"end":{"line":92,"column":38,"index":3660}},"extra":{"rawValue":30,"raw":"30"},"value":30}
-start:92,end:92
-operation:+,accAdd,left:{"type":"Identifier","start":8328,"end":8342,"loc":{"start":{"line":198,"column":20,"index":8328},"end":{"line":198,"column":34,"index":8342},"identifierName":"fahanInitValue"},"name":"fahanInitValue"},right:{"type":"NumericLiteral","start":8345,"end":8347,"loc":{"start":{"line":198,"column":37,"index":8345},"end":{"line":198,"column":39,"index":8347}},"extra":{"rawValue":30,"raw":"30"},"value":30}
-start:198,end:198
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 186635..186636, ctxt: #12, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 186640..186659, obj: Member(MemberExpr { span: 186640..186652, obj: Ident(Ident { span: 186640..186649, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 186649..186652, expr: Ident(Ident { span: 186650..186651, ctxt: #12, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 186653..186659, sym: "length" }) })
+start:186635,end:186659
+operation:"+","accAdd",left:Ident(Ident { span: 189185..189190, ctxt: #19, sym: "value", optional: false }),right:Lit(Num(Number { span: 189193..189195, value: 30.0, raw: Some("30") }))
+start:189185,end:189195
+operation:"+","accAdd",left:Ident(Ident { span: 193933..193947, ctxt: #47, sym: "fahanInitValue", optional: false }),right:Lit(Num(Number { span: 193950..193952, value: 30.0, raw: Some("30") }))
+start:193933,end:193952

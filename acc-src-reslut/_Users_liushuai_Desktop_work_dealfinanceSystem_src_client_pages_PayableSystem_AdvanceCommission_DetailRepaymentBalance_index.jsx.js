@@ -1,1 +1,2 @@
-operation:+=,accAdd,start:43,end:43
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 117485..117496, ctxt: #6, sym: "totalAmount", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 117500..117522, obj: Ident(Ident { span: 117500..117504, ctxt: #7, sym: "item", optional: false }), prop: Ident(IdentName { span: 117505..117522, sym: "calc_total_amount" }) })
+start:117485,end:117522

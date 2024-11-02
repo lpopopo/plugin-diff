@@ -1,1 +1,2 @@
-operation:+=,accAdd,start:2,end:2
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 3952394..3952395, ctxt: #3, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 3952399..3952418, obj: Member(MemberExpr { span: 3952399..3952411, obj: Ident(Ident { span: 3952399..3952408, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 3952408..3952411, expr: Ident(Ident { span: 3952409..3952410, ctxt: #3, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 3952412..3952418, sym: "length" }) })
+start:3952394,end:3952418

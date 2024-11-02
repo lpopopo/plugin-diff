@@ -1,10 +1,10 @@
-operation:+,accAdd,left:{"type":"StringLiteral","start":2232,"end":2234,"loc":{"start":{"line":54,"column":61},"end":{"line":54,"column":63}},"extra":{"rawValue":"","raw":"\"\""},"value":""},right:{"type":"MemberExpression","start":2237,"end":2248,"loc":{"start":{"line":54,"column":66},"end":{"line":54,"column":77}},"object":{"type":"Identifier","start":2237,"end":2242,"loc":{"start":{"line":54,"column":66},"end":{"line":54,"column":71},"identifierName":"value"},"name":"value"},"computed":true,"property":{"type":"Identifier","start":2243,"end":2247,"loc":{"start":{"line":54,"column":72},"end":{"line":54,"column":76},"identifierName":"fkey"},"name":"fkey"}}
-start:54,end:54
-operation:+,accAdd,left:{"type":"StringLiteral","start":7648,"end":7656,"loc":{"start":{"line":139,"column":60},"end":{"line":139,"column":68}},"extra":{"rawValue":"field-","raw":"\"field-\""},"value":"field-"},right:{"type":"Identifier","start":7659,"end":7663,"loc":{"start":{"line":139,"column":71},"end":{"line":139,"column":75},"identifierName":"name"},"name":"name"}
-start:139,end:139
-operation:+,accAdd,left:{"type":"StringLiteral","start":8771,"end":8773,"loc":{"start":{"line":140,"column":936},"end":{"line":140,"column":938}},"extra":{"rawValue":"","raw":"\"\""},"value":""},right:{"type":"Identifier","start":8776,"end":8786,"loc":{"start":{"line":140,"column":941},"end":{"line":140,"column":951},"identifierName":"chooseName"},"name":"chooseName"}
-start:140,end:140
-operation:+,accAdd,left:{"type":"StringLiteral","start":8918,"end":8926,"loc":{"start":{"line":141,"column":60},"end":{"line":141,"column":68}},"extra":{"rawValue":"field-","raw":"\"field-\""},"value":"field-"},right:{"type":"Identifier","start":8929,"end":8933,"loc":{"start":{"line":141,"column":71},"end":{"line":141,"column":75},"identifierName":"name"},"name":"name"}
-start:141,end:141
-operation:+,accAdd,left:{"type":"StringLiteral","start":9382,"end":9384,"loc":{"start":{"line":142,"column":277},"end":{"line":142,"column":279}},"extra":{"rawValue":"","raw":"\"\""},"value":""},right:{"type":"Identifier","start":9387,"end":9391,"loc":{"start":{"line":142,"column":282},"end":{"line":142,"column":286},"identifierName":"name"},"name":"name"}
-start:142,end:142
+operation:"+","accAdd",left:Lit(Str(Str { span: 4147966..4147968, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 4147971..4147982, obj: Ident(Ident { span: 4147971..4147976, ctxt: #17, sym: "value", optional: false }), prop: Computed(ComputedPropName { span: 4147976..4147982, expr: Ident(Ident { span: 4147977..4147981, ctxt: #14, sym: "fkey", optional: false }) }) })
+start:4147966,end:4147982
+operation:"+","accAdd",left:Lit(Str(Str { span: 4153506..4153514, value: "field-", raw: Some("\"field-\"") })),right:Ident(Ident { span: 4153517..4153521, ctxt: #28, sym: "name", optional: false })
+start:4153506,end:4153521
+operation:"+","accAdd",left:Lit(Str(Str { span: 4154629..4154631, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 4154634..4154644, ctxt: #28, sym: "chooseName", optional: false })
+start:4154629,end:4154644
+operation:"+","accAdd",left:Lit(Str(Str { span: 4154776..4154784, value: "field-", raw: Some("\"field-\"") })),right:Ident(Ident { span: 4154787..4154791, ctxt: #28, sym: "name", optional: false })
+start:4154776,end:4154791
+operation:"+","accAdd",left:Lit(Str(Str { span: 4155240..4155242, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 4155245..4155249, ctxt: #28, sym: "name", optional: false })
+start:4155240,end:4155249
