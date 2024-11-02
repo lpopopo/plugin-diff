@@ -1,10 +1,10 @@
-operation:+,accAdd,left:{"type":"StringLiteral","start":2065,"end":2067,"loc":{"start":{"line":54,"column":61,"index":2065},"end":{"line":54,"column":63,"index":2067}},"extra":{"rawValue":"","raw":"\"\""},"value":""},right:{"type":"MemberExpression","start":2070,"end":2081,"loc":{"start":{"line":54,"column":66,"index":2070},"end":{"line":54,"column":77,"index":2081}},"object":{"type":"Identifier","start":2070,"end":2075,"loc":{"start":{"line":54,"column":66,"index":2070},"end":{"line":54,"column":71,"index":2075},"identifierName":"value"},"name":"value"},"computed":true,"property":{"type":"Identifier","start":2076,"end":2080,"loc":{"start":{"line":54,"column":72,"index":2076},"end":{"line":54,"column":76,"index":2080},"identifierName":"fkey"},"name":"fkey"}}
-start:54,end:54
-operation:+,accAdd,left:{"type":"StringLiteral","start":6475,"end":6483,"loc":{"start":{"line":139,"column":60,"index":6475},"end":{"line":139,"column":68,"index":6483}},"extra":{"rawValue":"field-","raw":"\"field-\""},"value":"field-"},right:{"type":"Identifier","start":6486,"end":6490,"loc":{"start":{"line":139,"column":71,"index":6486},"end":{"line":139,"column":75,"index":6490},"identifierName":"name"},"name":"name"}
-start:139,end:139
-operation:+,accAdd,left:{"type":"StringLiteral","start":6926,"end":6928,"loc":{"start":{"line":140,"column":432,"index":6926},"end":{"line":140,"column":434,"index":6928}},"extra":{"rawValue":"","raw":"\"\""},"value":""},right:{"type":"Identifier","start":6931,"end":6941,"loc":{"start":{"line":140,"column":437,"index":6931},"end":{"line":140,"column":447,"index":6941},"identifierName":"chooseName"},"name":"chooseName"}
-start:140,end:140
-operation:+,accAdd,left:{"type":"StringLiteral","start":7073,"end":7081,"loc":{"start":{"line":141,"column":60,"index":7073},"end":{"line":141,"column":68,"index":7081}},"extra":{"rawValue":"field-","raw":"\"field-\""},"value":"field-"},right:{"type":"Identifier","start":7084,"end":7088,"loc":{"start":{"line":141,"column":71,"index":7084},"end":{"line":141,"column":75,"index":7088},"identifierName":"name"},"name":"name"}
-start:141,end:141
-operation:+,accAdd,left:{"type":"StringLiteral","start":7201,"end":7203,"loc":{"start":{"line":142,"column":109,"index":7201},"end":{"line":142,"column":111,"index":7203}},"extra":{"rawValue":"","raw":"\"\""},"value":""},right:{"type":"Identifier","start":7206,"end":7210,"loc":{"start":{"line":142,"column":114,"index":7206},"end":{"line":142,"column":118,"index":7210},"identifierName":"name"},"name":"name"}
-start:142,end:142
+operation:"+","accAdd",left:Lit(Str(Str { span: 533788..533790, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 533793..533804, obj: Ident(Ident { span: 533793..533798, ctxt: #17, sym: "value", optional: false }), prop: Computed(ComputedPropName { span: 533798..533804, expr: Ident(Ident { span: 533799..533803, ctxt: #14, sym: "fkey", optional: false }) }) })
+start:533788,end:533804
+operation:"+","accAdd",left:Lit(Str(Str { span: 538322..538330, value: "field-", raw: Some("\"field-\"") })),right:Ident(Ident { span: 538333..538337, ctxt: #28, sym: "name", optional: false })
+start:538322,end:538337
+operation:"+","accAdd",left:Lit(Str(Str { span: 538773..538775, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 538778..538788, ctxt: #28, sym: "chooseName", optional: false })
+start:538773,end:538788
+operation:"+","accAdd",left:Lit(Str(Str { span: 538920..538928, value: "field-", raw: Some("\"field-\"") })),right:Ident(Ident { span: 538931..538935, ctxt: #28, sym: "name", optional: false })
+start:538920,end:538935
+operation:"+","accAdd",left:Lit(Str(Str { span: 539048..539050, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 539053..539057, ctxt: #28, sym: "name", optional: false })
+start:539048,end:539057

@@ -1,2 +1,2 @@
-operation:+,accAdd,left:{"type":"Identifier","start":16249,"end":16254,"loc":{"start":{"line":463,"column":49},"end":{"line":463,"column":54},"identifierName":"index"},"name":"index"},right:{"type":"NumericLiteral","start":16257,"end":16258,"loc":{"start":{"line":463,"column":57},"end":{"line":463,"column":58}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:463,end:463
+operation:"+","accAdd",left:Ident(Ident { span: 2820181..2820186, ctxt: #37, sym: "index", optional: false }),right:Lit(Num(Number { span: 2820189..2820190, value: 1.0, raw: Some("1") }))
+start:2820181,end:2820190

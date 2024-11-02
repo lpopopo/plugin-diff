@@ -1,2 +1,6 @@
-operation:"+=","accAdd",left:BytePos(3164335),right:BytePos(3164335)
-start:3164335,end:3164359
+operation:"+=","accAdd",left:BytePos(3228995),right:BytePos(3228995)
+start:3228995,end:3229019
+operation:"+","accAdd",left:Lit(Str(Str { span: 3230506..3230508, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 3230511..3230515, ctxt: #9, sym: "text", optional: false })
+start:3230506,end:3230515
+operation:"+","accAdd",left:Lit(Str(Str { span: 3230542..3230571, value: "项目扣款 - ", raw: Some("\"\\u9879\\u76EE\\u6263\\u6B3E - \"") })),right:Call(CallExpr { span: 3230574..3230648, ctxt: #0, callee: Expr(Member(MemberExpr { span: 3230574..3230602, obj: Ident(Ident { span: 3230574..3230583, ctxt: #7, sym: "component", optional: false }), prop: Ident(IdentName { span: 3230584..3230602, sym: "getEnumsTextByType" }) })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3230603..3230623, value: "reward_second_type", raw: Some("'reward_second_type'") })) }, ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3230625..3230647, obj: Ident(Ident { span: 3230625..3230628, ctxt: #9, sym: "row", optional: false }), prop: Ident(IdentName { span: 3230629..3230647, sym: "reward_second_type" }) }) }], type_args: None })
+start:3230542,end:3230648

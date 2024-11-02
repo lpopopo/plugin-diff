@@ -1,4 +1,6 @@
-operation:+=,accAdd,start:31,end:31
-operation:/,accDiv,left:{"type":"Identifier","start":1765,"end":1768,"loc":{"start":{"line":49,"column":54},"end":{"line":49,"column":57},"identifierName":"sum"},"name":"sum"},right:{"type":"NumericLiteral","start":1771,"end":1774,"loc":{"start":{"line":49,"column":60},"end":{"line":49,"column":63}},"extra":{"rawValue":100,"raw":"100"},"value":100}
-start:49,end:49
-operation:+=,accAdd,start:216,end:216
+operation:"+=","accAdd",left:BytePos(4067869),right:BytePos(4067869)
+start:4067869,end:4067885
+operation:"/","accDiv",left:Ident(Ident { span: 4068709..4068712, ctxt: #8, sym: "sum", optional: false }),right:Lit(Num(Number { span: 4068715..4068718, value: 100.0, raw: Some("100") }))
+start:4068709,end:4068718
+operation:"+=","accAdd",left:BytePos(4075554),right:BytePos(4075554)
+start:4075554,end:4075574

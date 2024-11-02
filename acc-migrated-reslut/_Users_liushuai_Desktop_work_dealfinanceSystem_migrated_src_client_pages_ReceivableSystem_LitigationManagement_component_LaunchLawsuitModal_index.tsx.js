@@ -1,4 +1,6 @@
-operation:"*","accMul",left:Lit(Num(Number { span: 3989355..3989359, value: 1024.0, raw: Some("1024") })),right:Lit(Num(Number { span: 3989362..3989366, value: 1024.0, raw: Some("1024") }))
-start:3989355,end:3989366
-operation:"*","accMul",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accMul", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 3989355..3989359, value: 1024.0, raw: Some("1024") })) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 3989362..3989366, value: 1024.0, raw: Some("1024") })) }], type_args: None }),right:Lit(Num(Number { span: 3989369..3989372, value: 300.0, raw: Some("300") }))
-start:3989355,end:3989372
+operation:"*","accMul",left:Member(MemberExpr { span: 3925664..3925688, obj: Ident(Ident { span: 3925664..3925670, ctxt: #18, sym: "values", optional: false }), prop: Ident(IdentName { span: 3925671..3925688, sym: "lawsuitCostAmount" }) }),right:Lit(Num(Number { span: 3925691..3925694, value: 100.0, raw: Some("100") }))
+start:3925664,end:3925694
+operation:"*","accMul",left:Lit(Num(Number { span: 3926013..3926017, value: 1024.0, raw: Some("1024") })),right:Lit(Num(Number { span: 3926020..3926024, value: 1024.0, raw: Some("1024") }))
+start:3926013,end:3926024
+operation:"*","accMul",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accMul", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 3926013..3926017, value: 1024.0, raw: Some("1024") })) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 3926020..3926024, value: 1024.0, raw: Some("1024") })) }], type_args: None }),right:Lit(Num(Number { span: 3926027..3926030, value: 300.0, raw: Some("300") }))
+start:3926013,end:3926030

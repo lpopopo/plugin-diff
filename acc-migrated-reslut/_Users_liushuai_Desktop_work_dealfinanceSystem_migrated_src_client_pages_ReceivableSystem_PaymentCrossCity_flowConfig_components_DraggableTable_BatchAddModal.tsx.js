@@ -1,4 +1,26 @@
-operation:"-","accSub",left:Member(MemberExpr { span: 4014644..4014652, obj: Ident(Ident { span: 4014644..4014645, ctxt: #17, sym: "t", optional: false }), prop: Ident(IdentName { span: 4014646..4014652, sym: "length" }) }),right:Lit(Num(Number { span: 4014655..4014656, value: 1.0, raw: Some("1") }))
-start:4014644,end:4014656
-operation:"-","accSub",left:Member(MemberExpr { span: 4018101..4018119, obj: Call(CallExpr { span: 4018101..4018112, ctxt: #0, callee: Expr(Member(MemberExpr { span: 4018101..4018110, obj: Ident(Ident { span: 4018101..4018105, ctxt: #47, sym: "keys", optional: false }), prop: Ident(IdentName { span: 4018106..4018110, sym: "sort" }) })), args: [], type_args: None }), prop: Ident(IdentName { span: 4018113..4018119, sym: "length" }) }),right:Lit(Num(Number { span: 4018122..4018123, value: 1.0, raw: Some("1") }))
-start:4018101,end:4018123
+operation:"-","accSub",left:Member(MemberExpr { span: 3906784..3906792, obj: Ident(Ident { span: 3906784..3906785, ctxt: #17, sym: "t", optional: false }), prop: Ident(IdentName { span: 3906786..3906792, sym: "length" }) }),right:Lit(Num(Number { span: 3906795..3906796, value: 1.0, raw: Some("1") }))
+start:3906784,end:3906796
+operation:"-","accSub",left:Member(MemberExpr { span: 3910241..3910259, obj: Call(CallExpr { span: 3910241..3910252, ctxt: #0, callee: Expr(Member(MemberExpr { span: 3910241..3910250, obj: Ident(Ident { span: 3910241..3910245, ctxt: #47, sym: "keys", optional: false }), prop: Ident(IdentName { span: 3910246..3910250, sym: "sort" }) })), args: [], type_args: None }), prop: Ident(IdentName { span: 3910253..3910259, sym: "length" }) }),right:Lit(Num(Number { span: 3910262..3910263, value: 1.0, raw: Some("1") }))
+start:3910241,end:3910263
+operation:"+","accAdd",left:Ident(Ident { span: 3910301..3910307, ctxt: #47, sym: "maxVal", optional: false }),right:Lit(Num(Number { span: 3910310..3910311, value: 1.0, raw: Some("1") }))
+start:3910301,end:3910311
+operation:"+","accAdd",left:Ident(Ident { span: 3911195..3911200, ctxt: #48, sym: "index", optional: false }),right:Lit(Num(Number { span: 3911203..3911204, value: 1.0, raw: Some("1") }))
+start:3911195,end:3911204
+operation:"+","accAdd",left:Lit(Str(Str { span: 3911177..3911191, value: "规则", raw: Some("\"\\u89C4\\u5219\"") })),right:Paren(ParenExpr { span: 3911194..3911205, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3911195..3911200, ctxt: #48, sym: "index", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 3911203..3911204, value: 1.0, raw: Some("1") })) }], type_args: None }) })
+start:3911177,end:3911205
+operation:"+","accAdd",left:Lit(Str(Str { span: 3911469..3911480, value: "itemList[", raw: Some("\"itemList[\"") })),right:Ident(Ident { span: 3911483..3911484, ctxt: #48, sym: "k", optional: false })
+start:3911469,end:3911484
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3911469..3911480, value: "itemList[", raw: Some("\"itemList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3911483..3911484, ctxt: #48, sym: "k", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3911487..3911501, value: "].actionType", raw: Some("\"].actionType\"") }))
+start:3911469,end:3911501
+operation:"+","accAdd",left:Lit(Str(Str { span: 3912917..3912928, value: "itemList[", raw: Some("\"itemList[\"") })),right:Ident(Ident { span: 3912931..3912932, ctxt: #48, sym: "k", optional: false })
+start:3912917,end:3912932
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3912917..3912928, value: "itemList[", raw: Some("\"itemList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3912931..3912932, ctxt: #48, sym: "k", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3912935..3912951, value: "].paramKeyType", raw: Some("\"].paramKeyType\"") }))
+start:3912917,end:3912951
+operation:"+","accAdd",left:Lit(Str(Str { span: 3914427..3914438, value: "itemList[", raw: Some("\"itemList[\"") })),right:Ident(Ident { span: 3914441..3914442, ctxt: #48, sym: "k", optional: false })
+start:3914427,end:3914442
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3914427..3914438, value: "itemList[", raw: Some("\"itemList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3914441..3914442, ctxt: #48, sym: "k", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3914445..3914466, value: "].paramRelationType", raw: Some("\"].paramRelationType\"") }))
+start:3914427,end:3914466
+operation:"+","accAdd",left:Lit(Str(Str { span: 3915911..3915922, value: "itemList[", raw: Some("\"itemList[\"") })),right:Ident(Ident { span: 3915925..3915926, ctxt: #48, sym: "k", optional: false })
+start:3915911,end:3915926
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3915911..3915922, value: "itemList[", raw: Some("\"itemList[\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 3915925..3915926, ctxt: #48, sym: "k", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 3915929..3915947, value: "].paramValueList", raw: Some("\"].paramValueList\"") }))
+start:3915911,end:3915947

@@ -1,6 +1,6 @@
-operation:+,accAdd,left:{"type":"Identifier","start":1228,"end":1233,"loc":{"start":{"line":29,"column":60},"end":{"line":29,"column":65},"identifierName":"width"},"name":"width"},right:{"type":"StringLiteral","start":1236,"end":1240,"loc":{"start":{"line":29,"column":68},"end":{"line":29,"column":72}},"extra":{"rawValue":"px","raw":"\"px\""},"value":"px"}
-start:29,end:29
-operation:-,accSub,left:{"type":"NumericLiteral","start":1332,"end":1333,"loc":{"start":{"line":29,"column":164},"end":{"line":29,"column":165}},"extra":{"rawValue":0,"raw":"0"},"value":0},right:{"type":"Identifier","start":1336,"end":1341,"loc":{"start":{"line":29,"column":168},"end":{"line":29,"column":173},"identifierName":"width"},"name":"width"}
-start:29,end:29
-operation:+,accAdd,left:{"type":"CallExpression","callee":{"type":"Identifier","name":"accSub"},"arguments":[{"type":"NumericLiteral","start":1332,"end":1333,"loc":{"start":{"line":29,"column":164},"end":{"line":29,"column":165}},"extra":{"rawValue":0,"raw":"0"},"value":0},{"type":"Identifier","start":1336,"end":1341,"loc":{"start":{"line":29,"column":168},"end":{"line":29,"column":173},"identifierName":"width"},"name":"width"}],"trailingComments":[],"leadingComments":[],"innerComments":[]},right:{"type":"StringLiteral","start":1344,"end":1348,"loc":{"start":{"line":29,"column":176},"end":{"line":29,"column":180}},"extra":{"rawValue":"px","raw":"\"px\""},"value":"px"}
-start:29,end:29
+operation:"+","accAdd",left:Ident(Ident { span: 4091673..4091678, ctxt: #8, sym: "width", optional: false }),right:Lit(Str(Str { span: 4091681..4091685, value: "px", raw: Some("\"px\"") }))
+start:4091673,end:4091685
+operation:"-","accSub",left:Lit(Num(Number { span: 4091777..4091778, value: 0.0, raw: Some("0") })),right:Ident(Ident { span: 4091781..4091786, ctxt: #8, sym: "width", optional: false })
+start:4091777,end:4091786
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accSub", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 4091777..4091778, value: 0.0, raw: Some("0") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 4091781..4091786, ctxt: #8, sym: "width", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 4091789..4091793, value: "px", raw: Some("\"px\"") }))
+start:4091777,end:4091793

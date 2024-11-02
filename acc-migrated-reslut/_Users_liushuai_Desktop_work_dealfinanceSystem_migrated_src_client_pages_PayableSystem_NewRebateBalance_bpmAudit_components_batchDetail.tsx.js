@@ -1,5 +1,6 @@
-operation:-=,accSub,start:57,end:57
-operation:+,accAdd,left:{"type":"StringLiteral","start":6544,"end":6546,"loc":{"start":{"line":141,"column":31},"end":{"line":141,"column":33}},"extra":{"rawValue":"","raw":"\"\""},"value":""},right:{"type":"MemberExpression","start":6549,"end":6568,"loc":{"start":{"line":141,"column":36},"end":{"line":141,"column":55}},"object":{"type":"Identifier","start":6549,"end":6555,"loc":{"start":{"line":141,"column":36},"end":{"line":141,"column":42},"identifierName":"record"},"name":"record"},"computed":false,"property":{"type":"Identifier","start":6556,"end":6568,"loc":{"start":{"line":141,"column":43},"end":{"line":141,"column":55},"identifierName":"customerName"},"name":"customerName"}}
-start:141,end:141
-operation:+,accAdd,left:{"type":"StringLiteral","start":10280,"end":10287,"loc":{"start":{"line":189,"column":94},"end":{"line":189,"column":101}},"extra":{"rawValue":"attrs","raw":"\"attrs\""},"value":"attrs"},right:{"type":"MemberExpression","start":10290,"end":10319,"loc":{"start":{"line":189,"column":104},"end":{"line":189,"column":133}},"object":{"type":"Identifier","start":10290,"end":10294,"loc":{"start":{"line":189,"column":104},"end":{"line":189,"column":108},"identifierName":"item"},"name":"item"},"computed":false,"property":{"type":"Identifier","start":10295,"end":10319,"loc":{"start":{"line":189,"column":109},"end":{"line":189,"column":133},"identifierName":"distributorEnclosureName"},"name":"distributorEnclosureName"}}
-start:189,end:189
+operation:"-=","accSub",left:BytePos(2218111),right:BytePos(2218111)
+start:2218111,end:2218119
+operation:"+","accAdd",left:Lit(Str(Str { span: 2222373..2222375, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 2222378..2222397, obj: Ident(Ident { span: 2222378..2222384, ctxt: #32, sym: "record", optional: false }), prop: Ident(IdentName { span: 2222385..2222397, sym: "customerName" }) })
+start:2222373,end:2222397
+operation:"+","accAdd",left:Lit(Str(Str { span: 2226165..2226172, value: "attrs", raw: Some("\"attrs\"") })),right:Member(MemberExpr { span: 2226175..2226204, obj: Ident(Ident { span: 2226175..2226179, ctxt: #36, sym: "item", optional: false }), prop: Ident(IdentName { span: 2226180..2226204, sym: "distributorEnclosureName" }) })
+start:2226165,end:2226204

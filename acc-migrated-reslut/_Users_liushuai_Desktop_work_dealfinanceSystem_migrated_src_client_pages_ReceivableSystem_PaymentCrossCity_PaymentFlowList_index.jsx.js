@@ -1,2 +1,2 @@
-operation:-,accSub,left:{"type":"Identifier","start":3684,"end":3700,"loc":{"start":{"line":105,"column":61},"end":{"line":105,"column":77},"identifierName":"EXPORT_MAX_RANGE"},"name":"EXPORT_MAX_RANGE"},right:{"type":"NumericLiteral","start":3703,"end":3704,"loc":{"start":{"line":105,"column":80},"end":{"line":105,"column":81}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:105,end:105
+operation:"-","accSub",left:Ident(Ident { span: 876051..876067, ctxt: #2, sym: "EXPORT_MAX_RANGE", optional: false }),right:Lit(Num(Number { span: 876070..876071, value: 1.0, raw: Some("1") }))
+start:876051,end:876071

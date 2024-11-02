@@ -1,8 +1,10 @@
-operation:"/","accDiv",left:Member(MemberExpr { span: 307583..307608, obj: Ident(Ident { span: 307583..307589, ctxt: #9, sym: "record", optional: false }), prop: Ident(IdentName { span: 307590..307608, sym: "channel_commission" }) }),right:Lit(Num(Number { span: 307611..307614, value: 100.0, raw: Some("100") }))
-start:307583,end:307614
-operation:"/","accDiv",left:Member(MemberExpr { span: 307908..307933, obj: Ident(Ident { span: 307908..307914, ctxt: #10, sym: "record", optional: false }), prop: Ident(IdentName { span: 307915..307933, sym: "channel_commission" }) }),right:Lit(Num(Number { span: 307936..307939, value: 100.0, raw: Some("100") }))
-start:307908,end:307939
-operation:"/","accDiv",left:Member(MemberExpr { span: 308879..308908, obj: Ident(Ident { span: 308879..308885, ctxt: #13, sym: "record", optional: false }), prop: Ident(IdentName { span: 308886..308908, sym: "channel_point_location" }) }),right:Lit(Num(Number { span: 308911..308914, value: 100.0, raw: Some("100") }))
-start:308879,end:308914
-operation:"/","accDiv",left:Member(MemberExpr { span: 309226..309255, obj: Ident(Ident { span: 309226..309232, ctxt: #14, sym: "record", optional: false }), prop: Ident(IdentName { span: 309233..309255, sym: "channel_point_location" }) }),right:Lit(Num(Number { span: 309258..309261, value: 100.0, raw: Some("100") }))
-start:309226,end:309261
+operation:"/","accDiv",left:Member(MemberExpr { span: 303568..303593, obj: Ident(Ident { span: 303568..303574, ctxt: #9, sym: "record", optional: false }), prop: Ident(IdentName { span: 303575..303593, sym: "channel_commission" }) }),right:Lit(Num(Number { span: 303596..303599, value: 100.0, raw: Some("100") }))
+start:303568,end:303599
+operation:"/","accDiv",left:Member(MemberExpr { span: 303893..303918, obj: Ident(Ident { span: 303893..303899, ctxt: #10, sym: "record", optional: false }), prop: Ident(IdentName { span: 303900..303918, sym: "channel_commission" }) }),right:Lit(Num(Number { span: 303921..303924, value: 100.0, raw: Some("100") }))
+start:303893,end:303924
+operation:"/","accDiv",left:Member(MemberExpr { span: 304864..304893, obj: Ident(Ident { span: 304864..304870, ctxt: #13, sym: "record", optional: false }), prop: Ident(IdentName { span: 304871..304893, sym: "channel_point_location" }) }),right:Lit(Num(Number { span: 304896..304899, value: 100.0, raw: Some("100") }))
+start:304864,end:304899
+operation:"/","accDiv",left:Member(MemberExpr { span: 305211..305240, obj: Ident(Ident { span: 305211..305217, ctxt: #14, sym: "record", optional: false }), prop: Ident(IdentName { span: 305218..305240, sym: "channel_point_location" }) }),right:Lit(Num(Number { span: 305243..305246, value: 100.0, raw: Some("100") }))
+start:305211,end:305246
+operation:"+","accAdd",left:Ident(Ident { span: 317300..317305, ctxt: #37, sym: "index", optional: false }),right:Lit(Num(Number { span: 317308..317309, value: 1.0, raw: Some("1") }))
+start:317300,end:317309

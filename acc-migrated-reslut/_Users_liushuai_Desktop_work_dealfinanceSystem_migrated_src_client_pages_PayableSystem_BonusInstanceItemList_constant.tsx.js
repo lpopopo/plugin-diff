@@ -1,2 +1,6 @@
-operation:"+=","accAdd",left:BytePos(3524783),right:BytePos(3524783)
-start:3524783,end:3524807
+operation:"+=","accAdd",left:BytePos(3535867),right:BytePos(3535867)
+start:3535867,end:3535891
+operation:"+","accAdd",left:Member(MemberExpr { span: 3537659..3537679, obj: Ident(Ident { span: 3537659..3537665, ctxt: #7, sym: "record", optional: false }), prop: Ident(IdentName { span: 3537666..3537679, sym: "mainAgentName" }) }),right:Lit(Str(Str { span: 3537682..3537685, value: "/", raw: Some("\"/\"") }))
+start:3537659,end:3537685
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3537659..3537679, obj: Ident(Ident { span: 3537659..3537665, ctxt: #7, sym: "record", optional: false }), prop: Ident(IdentName { span: 3537666..3537679, sym: "mainAgentName" }) }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 3537682..3537685, value: "/", raw: Some("\"/\"") })) }], type_args: None }),right:Member(MemberExpr { span: 3537688..3537706, obj: Ident(Ident { span: 3537688..3537694, ctxt: #7, sym: "record", optional: false }), prop: Ident(IdentName { span: 3537695..3537706, sym: "mainAgentId" }) })
+start:3537659,end:3537706

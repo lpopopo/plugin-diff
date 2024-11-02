@@ -1,2 +1,2 @@
-operation:+,accAdd,left:{"type":"Identifier","start":1390,"end":1395,"loc":{"start":{"line":21,"column":59},"end":{"line":21,"column":64},"identifierName":"index"},"name":"index"},right:{"type":"StringLiteral","start":1398,"end":1406,"loc":{"start":{"line":21,"column":67},"end":{"line":21,"column":75}},"extra":{"rawValue":"abcdef","raw":"\"abcdef\""},"value":"abcdef"}
-start:21,end:21
+operation:"+","accAdd",left:Ident(Ident { span: 2035987..2035992, ctxt: #4, sym: "index", optional: false }),right:Lit(Str(Str { span: 2035995..2036003, value: "abcdef", raw: Some("\"abcdef\"") }))
+start:2035987,end:2036003

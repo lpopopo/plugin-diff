@@ -1,26 +1,26 @@
-operation:"+","accAdd",left:Ident(Ident { span: 3503532..3503542, ctxt: #6, sym: "currentDeg", optional: false }),right:Lit(Num(Number { span: 3503545..3503547, value: 90.0, raw: Some("90") }))
-start:3503532,end:3503547
-operation:"+","accAdd",left:Ident(Ident { span: 3503667..3503678, ctxt: #6, sym: "currentScal", optional: false }),right:Lit(Num(Number { span: 3503681..3503684, value: 0.2, raw: Some("0.2") }))
-start:3503667,end:3503684
-operation:"+","accAdd",left:Ident(Ident { span: 3503753..3503764, ctxt: #6, sym: "currentScal", optional: false }),right:Lit(Num(Number { span: 3503767..3503768, value: 1.0, raw: Some("1") }))
-start:3503753,end:3503768
-operation:"-","accSub",left:Ident(Ident { span: 3504035..3504046, ctxt: #6, sym: "currentScal", optional: false }),right:Lit(Num(Number { span: 3504049..3504050, value: 1.0, raw: Some("1") }))
-start:3504035,end:3504050
-operation:"-","accSub",left:Ident(Ident { span: 3504142..3504153, ctxt: #6, sym: "currentScal", optional: false }),right:Lit(Num(Number { span: 3504156..3504159, value: 0.2, raw: Some("0.2") }))
-start:3504142,end:3504159
-operation:"+","accAdd",left:Member(MemberExpr { span: 3504984..3505007, obj: Member(MemberExpr { span: 3504984..3504994, obj: This(ThisExpr { span: 3504984..3504988 }), prop: Ident(IdentName { span: 3504989..3504994, sym: "state" }) }), prop: Ident(IdentName { span: 3504995..3505007, sym: "currentIndex" }) }),right:Lit(Num(Number { span: 3505010..3505011, value: 1.0, raw: Some("1") }))
-start:3504984,end:3505011
-operation:"-","accSub",left:Member(MemberExpr { span: 3505014..3505037, obj: Member(MemberExpr { span: 3505014..3505024, obj: This(ThisExpr { span: 3505014..3505018 }), prop: Ident(IdentName { span: 3505019..3505024, sym: "state" }) }), prop: Ident(IdentName { span: 3505025..3505037, sym: "currentIndex" }) }),right:Lit(Num(Number { span: 3505040..3505041, value: 1.0, raw: Some("1") }))
-start:3505014,end:3505041
-operation:"-","accSub",left:Member(MemberExpr { span: 3506401..3506415, obj: Ident(Ident { span: 3506401..3506407, ctxt: #18, sym: "oEvent", optional: false }), prop: Ident(IdentName { span: 3506408..3506415, sym: "clientX" }) }),right:Member(MemberExpr { span: 3506418..3506432, obj: Ident(Ident { span: 3506418..3506421, ctxt: #18, sym: "obj", optional: false }), prop: Ident(IdentName { span: 3506422..3506432, sym: "offsetLeft" }) })
-start:3506401,end:3506432
-operation:"-","accSub",left:Member(MemberExpr { span: 3506453..3506467, obj: Ident(Ident { span: 3506453..3506459, ctxt: #18, sym: "oEvent", optional: false }), prop: Ident(IdentName { span: 3506460..3506467, sym: "clientY" }) }),right:Member(MemberExpr { span: 3506470..3506483, obj: Ident(Ident { span: 3506470..3506473, ctxt: #18, sym: "obj", optional: false }), prop: Ident(IdentName { span: 3506474..3506483, sym: "offsetTop" }) })
-start:3506453,end:3506483
-operation:"-","accSub",left:Member(MemberExpr { span: 3506639..3506653, obj: Ident(Ident { span: 3506639..3506645, ctxt: #21, sym: "event1", optional: false }), prop: Ident(IdentName { span: 3506646..3506653, sym: "clientX" }) }),right:Ident(Ident { span: 3506656..3506658, ctxt: #18, sym: "ol", optional: false })
-start:3506639,end:3506658
-operation:"-","accSub",left:Member(MemberExpr { span: 3506684..3506698, obj: Ident(Ident { span: 3506684..3506690, ctxt: #21, sym: "event1", optional: false }), prop: Ident(IdentName { span: 3506691..3506698, sym: "clientY" }) }),right:Ident(Ident { span: 3506701..3506703, ctxt: #18, sym: "ot", optional: false })
-start:3506684,end:3506703
-operation:"+","accAdd",left:Member(MemberExpr { span: 3509141..3509164, obj: Member(MemberExpr { span: 3509141..3509151, obj: This(ThisExpr { span: 3509141..3509145 }), prop: Ident(IdentName { span: 3509146..3509151, sym: "state" }) }), prop: Ident(IdentName { span: 3509152..3509164, sym: "currentIndex" }) }),right:Lit(Num(Number { span: 3509167..3509168, value: 1.0, raw: Some("1") }))
-start:3509141,end:3509168
-operation:"-","accSub",left:Member(MemberExpr { span: 3510208..3510235, obj: Member(MemberExpr { span: 3510208..3510228, obj: Member(MemberExpr { span: 3510208..3510218, obj: This(ThisExpr { span: 3510208..3510212 }), prop: Ident(IdentName { span: 3510213..3510218, sym: "props" }) }), prop: Ident(IdentName { span: 3510219..3510228, sym: "imageList" }) }), prop: Ident(IdentName { span: 3510229..3510235, sym: "length" }) }),right:Lit(Num(Number { span: 3510238..3510239, value: 1.0, raw: Some("1") }))
-start:3510208,end:3510239
+operation:"+","accAdd",left:Ident(Ident { span: 3510141..3510151, ctxt: #6, sym: "currentDeg", optional: false }),right:Lit(Num(Number { span: 3510154..3510156, value: 90.0, raw: Some("90") }))
+start:3510141,end:3510156
+operation:"+","accAdd",left:Ident(Ident { span: 3510276..3510287, ctxt: #6, sym: "currentScal", optional: false }),right:Lit(Num(Number { span: 3510290..3510293, value: 0.2, raw: Some("0.2") }))
+start:3510276,end:3510293
+operation:"+","accAdd",left:Ident(Ident { span: 3510362..3510373, ctxt: #6, sym: "currentScal", optional: false }),right:Lit(Num(Number { span: 3510376..3510377, value: 1.0, raw: Some("1") }))
+start:3510362,end:3510377
+operation:"-","accSub",left:Ident(Ident { span: 3510644..3510655, ctxt: #6, sym: "currentScal", optional: false }),right:Lit(Num(Number { span: 3510658..3510659, value: 1.0, raw: Some("1") }))
+start:3510644,end:3510659
+operation:"-","accSub",left:Ident(Ident { span: 3510751..3510762, ctxt: #6, sym: "currentScal", optional: false }),right:Lit(Num(Number { span: 3510765..3510768, value: 0.2, raw: Some("0.2") }))
+start:3510751,end:3510768
+operation:"+","accAdd",left:Member(MemberExpr { span: 3511593..3511616, obj: Member(MemberExpr { span: 3511593..3511603, obj: This(ThisExpr { span: 3511593..3511597 }), prop: Ident(IdentName { span: 3511598..3511603, sym: "state" }) }), prop: Ident(IdentName { span: 3511604..3511616, sym: "currentIndex" }) }),right:Lit(Num(Number { span: 3511619..3511620, value: 1.0, raw: Some("1") }))
+start:3511593,end:3511620
+operation:"-","accSub",left:Member(MemberExpr { span: 3511623..3511646, obj: Member(MemberExpr { span: 3511623..3511633, obj: This(ThisExpr { span: 3511623..3511627 }), prop: Ident(IdentName { span: 3511628..3511633, sym: "state" }) }), prop: Ident(IdentName { span: 3511634..3511646, sym: "currentIndex" }) }),right:Lit(Num(Number { span: 3511649..3511650, value: 1.0, raw: Some("1") }))
+start:3511623,end:3511650
+operation:"-","accSub",left:Member(MemberExpr { span: 3513010..3513024, obj: Ident(Ident { span: 3513010..3513016, ctxt: #18, sym: "oEvent", optional: false }), prop: Ident(IdentName { span: 3513017..3513024, sym: "clientX" }) }),right:Member(MemberExpr { span: 3513027..3513041, obj: Ident(Ident { span: 3513027..3513030, ctxt: #18, sym: "obj", optional: false }), prop: Ident(IdentName { span: 3513031..3513041, sym: "offsetLeft" }) })
+start:3513010,end:3513041
+operation:"-","accSub",left:Member(MemberExpr { span: 3513062..3513076, obj: Ident(Ident { span: 3513062..3513068, ctxt: #18, sym: "oEvent", optional: false }), prop: Ident(IdentName { span: 3513069..3513076, sym: "clientY" }) }),right:Member(MemberExpr { span: 3513079..3513092, obj: Ident(Ident { span: 3513079..3513082, ctxt: #18, sym: "obj", optional: false }), prop: Ident(IdentName { span: 3513083..3513092, sym: "offsetTop" }) })
+start:3513062,end:3513092
+operation:"-","accSub",left:Member(MemberExpr { span: 3513248..3513262, obj: Ident(Ident { span: 3513248..3513254, ctxt: #21, sym: "event1", optional: false }), prop: Ident(IdentName { span: 3513255..3513262, sym: "clientX" }) }),right:Ident(Ident { span: 3513265..3513267, ctxt: #18, sym: "ol", optional: false })
+start:3513248,end:3513267
+operation:"-","accSub",left:Member(MemberExpr { span: 3513293..3513307, obj: Ident(Ident { span: 3513293..3513299, ctxt: #21, sym: "event1", optional: false }), prop: Ident(IdentName { span: 3513300..3513307, sym: "clientY" }) }),right:Ident(Ident { span: 3513310..3513312, ctxt: #18, sym: "ot", optional: false })
+start:3513293,end:3513312
+operation:"+","accAdd",left:Member(MemberExpr { span: 3515750..3515773, obj: Member(MemberExpr { span: 3515750..3515760, obj: This(ThisExpr { span: 3515750..3515754 }), prop: Ident(IdentName { span: 3515755..3515760, sym: "state" }) }), prop: Ident(IdentName { span: 3515761..3515773, sym: "currentIndex" }) }),right:Lit(Num(Number { span: 3515776..3515777, value: 1.0, raw: Some("1") }))
+start:3515750,end:3515777
+operation:"-","accSub",left:Member(MemberExpr { span: 3516817..3516844, obj: Member(MemberExpr { span: 3516817..3516837, obj: Member(MemberExpr { span: 3516817..3516827, obj: This(ThisExpr { span: 3516817..3516821 }), prop: Ident(IdentName { span: 3516822..3516827, sym: "props" }) }), prop: Ident(IdentName { span: 3516828..3516837, sym: "imageList" }) }), prop: Ident(IdentName { span: 3516838..3516844, sym: "length" }) }),right:Lit(Num(Number { span: 3516847..3516848, value: 1.0, raw: Some("1") }))
+start:3516817,end:3516848

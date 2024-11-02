@@ -1,1 +1,2 @@
-operation:-=,accSub,start:595,end:595
+operation:"-=","accSub",left:BytePos(3299963),right:BytePos(3299963)
+start:3299963,end:3299971

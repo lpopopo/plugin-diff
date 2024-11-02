@@ -1,2 +1,2 @@
-operation:+,accAdd,left:{"type":"Identifier","start":3727,"end":3734,"loc":{"start":{"line":118,"column":80,"index":3727},"end":{"line":118,"column":87,"index":3734},"identifierName":"account"},"name":"account"},right:{"type":"UpdateExpression","start":3737,"end":3740,"loc":{"start":{"line":118,"column":90,"index":3737},"end":{"line":118,"column":93,"index":3740}},"operator":"++","prefix":false,"argument":{"type":"Identifier","start":3737,"end":3738,"loc":{"start":{"line":118,"column":90,"index":3737},"end":{"line":118,"column":91,"index":3738},"identifierName":"a"},"name":"a"}}
-start:118,end:118
+operation:"+","accAdd",left:Ident(Ident { span: 347742..347749, ctxt: #25, sym: "account", optional: false }),right:Update(UpdateExpr { span: 347752..347755, op: "++", prefix: false, arg: Ident(Ident { span: 347752..347753, ctxt: #13, sym: "a", optional: false }) })
+start:347742,end:347755

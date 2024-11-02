@@ -1,3 +1,4 @@
-operation:-=,accSub,start:362,end:362
-operation:+,accAdd,left:{"type":"Identifier","start":11873,"end":11878,"loc":{"start":{"line":385,"column":54},"end":{"line":385,"column":59},"identifierName":"index"},"name":"index"},right:{"type":"NumericLiteral","start":11881,"end":11882,"loc":{"start":{"line":385,"column":62},"end":{"line":385,"column":63}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:385,end:385
+operation:"-=","accSub",left:BytePos(1493408),right:BytePos(1493408)
+start:1493408,end:1493416
+operation:"+","accAdd",left:Ident(Ident { span: 1494222..1494227, ctxt: #48, sym: "index", optional: false }),right:Lit(Num(Number { span: 1494230..1494231, value: 1.0, raw: Some("1") }))
+start:1494222,end:1494231

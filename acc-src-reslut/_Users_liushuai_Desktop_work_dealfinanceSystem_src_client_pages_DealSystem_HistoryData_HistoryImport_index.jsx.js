@@ -1,4 +1,4 @@
-operation:-,accSub,left:{"type":"Identifier","start":2994,"end":3002,"loc":{"start":{"line":111,"column":34,"index":2994},"end":{"line":111,"column":42,"index":3002},"identifierName":"ratioVal"},"name":"ratioVal"},right:{"type":"NumericLiteral","start":3005,"end":3006,"loc":{"start":{"line":111,"column":45,"index":3005},"end":{"line":111,"column":46,"index":3006}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:111,end:111
-operation:-,accSub,left:{"type":"Identifier","start":2267,"end":2271,"loc":{"start":{"line":80,"column":38,"index":2267},"end":{"line":80,"column":42,"index":2271},"identifierName":"rVal"},"name":"rVal"},right:{"type":"NumericLiteral","start":2274,"end":2275,"loc":{"start":{"line":80,"column":45,"index":2274},"end":{"line":80,"column":46,"index":2275}},"extra":{"rawValue":1,"raw":"1"},"value":1}
-start:80,end:80
+operation:"-","accSub",left:Ident(Ident { span: 30626..30630, ctxt: #14, sym: "rVal", optional: false }),right:Lit(Num(Number { span: 30633..30634, value: 1.0, raw: Some("1") }))
+start:30626,end:30634
+operation:"-","accSub",left:Ident(Ident { span: 31377..31385, ctxt: #18, sym: "ratioVal", optional: false }),right:Lit(Num(Number { span: 31388..31389, value: 1.0, raw: Some("1") }))
+start:31377,end:31389

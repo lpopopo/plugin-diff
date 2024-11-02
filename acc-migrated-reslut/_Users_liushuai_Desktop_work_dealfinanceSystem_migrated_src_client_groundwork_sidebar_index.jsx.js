@@ -1,2 +1,6 @@
-operation:"-","accSub",left:Member(MemberExpr { span: 3363017..3363043, obj: Member(MemberExpr { span: 3363017..3363036, obj: Member(MemberExpr { span: 3363017..3363027, obj: This(ThisExpr { span: 3363017..3363021 }), prop: Ident(IdentName { span: 3363022..3363027, sym: "state" }) }), prop: Ident(IdentName { span: 3363028..3363036, sym: "openKeys" }) }), prop: Ident(IdentName { span: 3363037..3363043, sym: "length" }) }),right:Lit(Num(Number { span: 3363046..3363047, value: 1.0, raw: Some("1") }))
-start:3363017,end:3363047
+operation:"+","accAdd",left:Ident(Ident { span: 1527121..1527126, ctxt: #19, sym: "index", optional: false }),right:Lit(Num(Number { span: 1527129..1527130, value: 1.0, raw: Some("1") }))
+start:1527121,end:1527130
+operation:"-","accSub",left:Member(MemberExpr { span: 1527636..1527662, obj: Member(MemberExpr { span: 1527636..1527655, obj: Member(MemberExpr { span: 1527636..1527646, obj: This(ThisExpr { span: 1527636..1527640 }), prop: Ident(IdentName { span: 1527641..1527646, sym: "state" }) }), prop: Ident(IdentName { span: 1527647..1527655, sym: "openKeys" }) }), prop: Ident(IdentName { span: 1527656..1527662, sym: "length" }) }),right:Lit(Num(Number { span: 1527665..1527666, value: 1.0, raw: Some("1") }))
+start:1527636,end:1527666
+operation:"+","accAdd",left:Member(MemberExpr { span: 1528708..1528718, obj: Ident(Ident { span: 1528708..1528713, ctxt: #25, sym: "child", optional: false }), prop: Ident(IdentName { span: 1528714..1528718, sym: "path" }) }),right:Ident(Ident { span: 1528721..1528724, ctxt: #25, sym: "num", optional: false })
+start:1528708,end:1528724

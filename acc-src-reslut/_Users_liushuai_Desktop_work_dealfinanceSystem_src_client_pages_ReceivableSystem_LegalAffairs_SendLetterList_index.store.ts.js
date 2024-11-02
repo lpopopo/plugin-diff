@@ -1,2 +1,6 @@
-operation:"-","accSub",left:Member(MemberExpr { span: 430439..430456, obj: Ident(Ident { span: 430439..430449, ctxt: #3, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 430450..430456, sym: "length" }) }),right:Lit(Num(Number { span: 430459..430460, value: 1.0, raw: Some("1") }))
-start:430439,end:430460
+operation:"-","accSub",left:Member(MemberExpr { span: 482232..482249, obj: Ident(Ident { span: 482232..482242, ctxt: #3, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 482243..482249, sym: "length" }) }),right:Lit(Num(Number { span: 482252..482253, value: 1.0, raw: Some("1") }))
+start:482232,end:482253
+operation:"+","accAdd",left:Member(MemberExpr { span: 485571..485601, obj: Ident(Ident { span: 485571..485583, ctxt: #19, sym: "currentValue", optional: false }), prop: Ident(IdentName { span: 485584..485601, sym: "alreadyBackAmount" }) }),right:Ident(Ident { span: 485604..485617, ctxt: #19, sym: "previousValue", optional: false })
+start:485571,end:485617
+operation:"+","accAdd",left:Member(MemberExpr { span: 485732..485758, obj: Ident(Ident { span: 485732..485744, ctxt: #20, sym: "currentValue", optional: false }), prop: Ident(IdentName { span: 485745..485758, sym: "payableAmount" }) }),right:Ident(Ident { span: 485761..485774, ctxt: #20, sym: "previousValue", optional: false })
+start:485732,end:485774

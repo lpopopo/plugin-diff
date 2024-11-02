@@ -1,4 +1,6 @@
-operation:"+","accAdd",left:Ident(Ident { span: 17251..17256, ctxt: #5, sym: "index", optional: false }),right:Lit(Num(Number { span: 17259..17260, value: 2.0, raw: Some("2") }))
-start:17251,end:17260
-operation:"/","accDiv",left:Paren(ParenExpr { span: 17250..17261, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 17251..17256, ctxt: #5, sym: "index", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 17259..17260, value: 2.0, raw: Some("2") })) }], type_args: None }) }),right:Lit(Num(Number { span: 17264..17265, value: 2.0, raw: Some("2") }))
-start:17250,end:17265
+operation:"+","accAdd",left:Ident(Ident { span: 13765..13770, ctxt: #5, sym: "index", optional: false }),right:Lit(Num(Number { span: 13773..13774, value: 2.0, raw: Some("2") }))
+start:13765,end:13774
+operation:"/","accDiv",left:Paren(ParenExpr { span: 13764..13775, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 13765..13770, ctxt: #5, sym: "index", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 13773..13774, value: 2.0, raw: Some("2") })) }], type_args: None }) }),right:Lit(Num(Number { span: 13778..13779, value: 2.0, raw: Some("2") }))
+start:13764,end:13779
+operation:"+","accAdd",left:Ident(Ident { span: 16088..16093, ctxt: #11, sym: "index", optional: false }),right:Member(MemberExpr { span: 16096..16107, obj: Ident(Ident { span: 16096..16101, ctxt: #12, sym: "value", optional: false }), prop: Ident(IdentName { span: 16102..16107, sym: "phone" }) })
+start:16088,end:16107

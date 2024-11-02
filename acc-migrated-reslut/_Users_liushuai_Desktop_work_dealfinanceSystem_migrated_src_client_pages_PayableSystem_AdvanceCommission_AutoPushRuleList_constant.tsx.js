@@ -1,2 +1,6 @@
-operation:"+","accAdd",left:Ident(Ident { span: 2371747..2371751, ctxt: #15, sym: "text", optional: false }),right:Lit(Str(Str { span: 2371754..2371757, value: "%", raw: Some("\"%\"") }))
-start:2371747,end:2371757
+operation:"+","accAdd",left:Member(MemberExpr { span: 2673942..2673959, obj: Ident(Ident { span: 2673942..2673946, ctxt: #7, sym: "item", optional: false }), prop: Ident(IdentName { span: 2673947..2673959, sym: "resblockName" }) }),right:Lit(Str(Str { span: 2673962..2673965, value: " ", raw: Some("\" \"") }))
+start:2673942,end:2673965
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 2673942..2673959, obj: Ident(Ident { span: 2673942..2673946, ctxt: #7, sym: "item", optional: false }), prop: Ident(IdentName { span: 2673947..2673959, sym: "resblockName" }) }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2673962..2673965, value: " ", raw: Some("\" \"") })) }], type_args: None }),right:Member(MemberExpr { span: 2673968..2673981, obj: Ident(Ident { span: 2673968..2673972, ctxt: #7, sym: "item", optional: false }), prop: Ident(IdentName { span: 2673973..2673981, sym: "cityName" }) })
+start:2673942,end:2673981
+operation:"+","accAdd",left:Ident(Ident { span: 2678234..2678238, ctxt: #15, sym: "text", optional: false }),right:Lit(Str(Str { span: 2678241..2678244, value: "%", raw: Some("\"%\"") }))
+start:2678234,end:2678244

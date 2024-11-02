@@ -1,2 +1,2 @@
-operation:+,accAdd,left:{"type":"StringLiteral","start":6989,"end":6991,"loc":{"start":{"line":86,"column":469},"end":{"line":86,"column":471}},"extra":{"rawValue":"","raw":"\"\""},"value":""},right:{"type":"Identifier","start":6994,"end":6999,"loc":{"start":{"line":86,"column":474},"end":{"line":86,"column":479},"identifierName":"index"},"name":"index"}
-start:86,end:86
+operation:"+","accAdd",left:Lit(Str(Str { span: 752787..752789, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 752792..752797, ctxt: #16, sym: "index", optional: false })
+start:752787,end:752797
