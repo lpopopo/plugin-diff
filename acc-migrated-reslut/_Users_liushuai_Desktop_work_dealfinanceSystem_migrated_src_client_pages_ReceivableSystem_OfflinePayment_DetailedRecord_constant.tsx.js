@@ -1,2 +1,2 @@
-operation:"+","accAdd",left:Lit(Str(Str { span: 3178062..3178082, value: "跳转到", raw: Some("\"\\u8DF3\\u8F6C\\u5230\"") })),right:Member(MemberExpr { span: 3178085..3178094, obj: Ident(Ident { span: 3178085..3178089, ctxt: #8, sym: "item", optional: false }), prop: Ident(IdentName { span: 3178090..3178094, sym: "text" }) })
-start:3178062,end:3178094
+operation:"+","accAdd",left:Lit(Str(Str { span: 3186411..3186431, value: "跳转到", raw: Some("\"\\u8DF3\\u8F6C\\u5230\"") })),right:Member(MemberExpr { span: 3186434..3186443, obj: Ident(Ident { span: 3186434..3186438, ctxt: #8, sym: "item", optional: false }), prop: Ident(IdentName { span: 3186439..3186443, sym: "text" }) })
+start:3186411,end:3186443

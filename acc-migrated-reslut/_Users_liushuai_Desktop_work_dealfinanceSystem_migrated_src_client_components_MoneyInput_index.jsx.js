@@ -1,2 +1,2 @@
-operation:"*","accMul",left:Ident(Ident { span: 4150907..4150915, ctxt: #4, sym: "newValue", optional: false }),right:Lit(Num(Number { span: 4150918..4150921, value: 100.0, raw: Some("100") }))
-start:4150907,end:4150921
+operation:"*","accMul",left:Ident(Ident { span: 4164280..4164288, ctxt: #4, sym: "newValue", optional: false }),right:Lit(Num(Number { span: 4164291..4164294, value: 100.0, raw: Some("100") }))
+start:4164280,end:4164294

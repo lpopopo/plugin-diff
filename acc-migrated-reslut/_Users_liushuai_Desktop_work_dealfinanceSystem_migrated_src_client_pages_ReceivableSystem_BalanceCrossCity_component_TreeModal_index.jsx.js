@@ -1,6 +1,6 @@
-operation:"+","accAdd",left:Ident(Ident { span: 3267028..3267033, ctxt: #4, sym: "index", optional: false }),right:Lit(Num(Number { span: 3267036..3267037, value: 1.0, raw: Some("1") }))
-start:3267028,end:3267037
-operation:"+","accAdd",left:Ident(Ident { span: 3269264..3269269, ctxt: #7, sym: "index", optional: false }),right:Lit(Num(Number { span: 3269272..3269273, value: 1.0, raw: Some("1") }))
-start:3269264,end:3269273
-operation:"+","accAdd",left:Ident(Ident { span: 3270441..3270446, ctxt: #9, sym: "index", optional: false }),right:Lit(Num(Number { span: 3270449..3270450, value: 1.0, raw: Some("1") }))
-start:3270441,end:3270450
+operation:"+","accAdd",left:Ident(Ident { span: 3278656..3278661, ctxt: #4, sym: "index", optional: false }),right:Lit(Num(Number { span: 3278664..3278665, value: 1.0, raw: Some("1") }))
+start:3278656,end:3278665
+operation:"+","accAdd",left:Ident(Ident { span: 3280892..3280897, ctxt: #7, sym: "index", optional: false }),right:Lit(Num(Number { span: 3280900..3280901, value: 1.0, raw: Some("1") }))
+start:3280892,end:3280901
+operation:"+","accAdd",left:Ident(Ident { span: 3282069..3282074, ctxt: #9, sym: "index", optional: false }),right:Lit(Num(Number { span: 3282077..3282078, value: 1.0, raw: Some("1") }))
+start:3282069,end:3282078

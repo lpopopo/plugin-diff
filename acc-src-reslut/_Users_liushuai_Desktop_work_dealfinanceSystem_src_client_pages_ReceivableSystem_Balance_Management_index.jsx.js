@@ -1,6 +1,6 @@
-operation:"-","accSub",left:Member(MemberExpr { span: 167836..167859, obj: Ident(Ident { span: 167836..167852, ctxt: #4, sym: "sign_first_party", optional: false }), prop: Ident(IdentName { span: 167853..167859, sym: "length" }) }),right:Lit(Num(Number { span: 167862..167863, value: 1.0, raw: Some("1") }))
-start:167836,end:167863
-operation:"*","accMul",left:Ident(Ident { span: 169083..169087, ctxt: #9, sym: "text", optional: false }),right:Lit(Num(Number { span: 169090..169093, value: 100.0, raw: Some("100") }))
-start:169083,end:169093
-operation:"/","accDiv",left:Member(MemberExpr { span: 179738..179791, obj: Member(MemberExpr { span: 179738..179764, obj: Member(MemberExpr { span: 179738..179759, obj: This(ThisExpr { span: 179738..179742 }), prop: Ident(IdentName { span: 179743..179759, sym: "balanceListStore" }) }), prop: Ident(IdentName { span: 179760..179764, sym: "data" }) }), prop: Ident(IdentName { span: 179765..179791, sym: "sum_current_balance_amount" }) }),right:Lit(Num(Number { span: 179794..179797, value: 100.0, raw: Some("100") }))
-start:179738,end:179797
+operation:"-","accSub",left:Member(MemberExpr { span: 109470..109493, obj: Ident(Ident { span: 109470..109486, ctxt: #4, sym: "sign_first_party", optional: false }), prop: Ident(IdentName { span: 109487..109493, sym: "length" }) }),right:Lit(Num(Number { span: 109496..109497, value: 1.0, raw: Some("1") }))
+start:109470,end:109497
+operation:"*","accMul",left:Ident(Ident { span: 110717..110721, ctxt: #9, sym: "text", optional: false }),right:Lit(Num(Number { span: 110724..110727, value: 100.0, raw: Some("100") }))
+start:110717,end:110727
+operation:"/","accDiv",left:Member(MemberExpr { span: 121372..121425, obj: Member(MemberExpr { span: 121372..121398, obj: Member(MemberExpr { span: 121372..121393, obj: This(ThisExpr { span: 121372..121376 }), prop: Ident(IdentName { span: 121377..121393, sym: "balanceListStore" }) }), prop: Ident(IdentName { span: 121394..121398, sym: "data" }) }), prop: Ident(IdentName { span: 121399..121425, sym: "sum_current_balance_amount" }) }),right:Lit(Num(Number { span: 121428..121431, value: 100.0, raw: Some("100") }))
+start:121372,end:121431

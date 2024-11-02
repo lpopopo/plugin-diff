@@ -1,6 +1,6 @@
-operation:"-=","accSub",left:BytePos(3120944),right:BytePos(3120944)
-start:3120944,end:3120952
-operation:"+","accAdd",left:Lit(Str(Str { span: 3121335..3121372, value: "/view/crossinvoice/info?invoice_id=", raw: Some("\"/view/crossinvoice/info?invoice_id=\"") })),right:Member(MemberExpr { span: 3121375..3121391, obj: Ident(Ident { span: 3121375..3121381, ctxt: #12, sym: "record", optional: false }), prop: Ident(IdentName { span: 3121382..3121391, sym: "invoiceId" }) })
-start:3121335,end:3121391
-operation:"+","accAdd",left:Lit(Str(Str { span: 3122788..3122795, value: "attrs", raw: Some("\"attrs\"") })),right:Member(MemberExpr { span: 3122798..3122812, obj: Ident(Ident { span: 3122798..3122799, ctxt: #14, sym: "w", optional: false }), prop: Ident(IdentName { span: 3122800..3122812, sym: "attachmentId" }) })
-start:3122788,end:3122812
+operation:"-=","accSub",left:Simple(Ident(BindingIdent { id: Ident { span: 2788731..2788734, ctxt: #8, sym: "num", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 2788738..2788739, value: 1.0, raw: Some("1") }))
+start:2788731,end:2788739
+operation:"+","accAdd",left:Lit(Str(Str { span: 2789122..2789159, value: "/view/crossinvoice/info?invoice_id=", raw: Some("\"/view/crossinvoice/info?invoice_id=\"") })),right:Member(MemberExpr { span: 2789162..2789178, obj: Ident(Ident { span: 2789162..2789168, ctxt: #12, sym: "record", optional: false }), prop: Ident(IdentName { span: 2789169..2789178, sym: "invoiceId" }) })
+start:2789122,end:2789178
+operation:"+","accAdd",left:Lit(Str(Str { span: 2790575..2790582, value: "attrs", raw: Some("\"attrs\"") })),right:Member(MemberExpr { span: 2790585..2790599, obj: Ident(Ident { span: 2790585..2790586, ctxt: #14, sym: "w", optional: false }), prop: Ident(IdentName { span: 2790587..2790599, sym: "attachmentId" }) })
+start:2790575,end:2790599

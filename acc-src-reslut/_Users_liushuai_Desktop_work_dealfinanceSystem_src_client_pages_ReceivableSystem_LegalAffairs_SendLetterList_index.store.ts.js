@@ -1,6 +1,6 @@
-operation:"-","accSub",left:Member(MemberExpr { span: 482232..482249, obj: Ident(Ident { span: 482232..482242, ctxt: #3, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 482243..482249, sym: "length" }) }),right:Lit(Num(Number { span: 482252..482253, value: 1.0, raw: Some("1") }))
-start:482232,end:482253
-operation:"+","accAdd",left:Member(MemberExpr { span: 485571..485601, obj: Ident(Ident { span: 485571..485583, ctxt: #19, sym: "currentValue", optional: false }), prop: Ident(IdentName { span: 485584..485601, sym: "alreadyBackAmount" }) }),right:Ident(Ident { span: 485604..485617, ctxt: #19, sym: "previousValue", optional: false })
-start:485571,end:485617
-operation:"+","accAdd",left:Member(MemberExpr { span: 485732..485758, obj: Ident(Ident { span: 485732..485744, ctxt: #20, sym: "currentValue", optional: false }), prop: Ident(IdentName { span: 485745..485758, sym: "payableAmount" }) }),right:Ident(Ident { span: 485761..485774, ctxt: #20, sym: "previousValue", optional: false })
-start:485732,end:485774
+operation:"-","accSub",left:Member(MemberExpr { span: 282950..282967, obj: Ident(Ident { span: 282950..282960, ctxt: #3, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 282961..282967, sym: "length" }) }),right:Lit(Num(Number { span: 282970..282971, value: 1.0, raw: Some("1") }))
+start:282950,end:282971
+operation:"+","accAdd",left:Member(MemberExpr { span: 286289..286319, obj: Ident(Ident { span: 286289..286301, ctxt: #19, sym: "currentValue", optional: false }), prop: Ident(IdentName { span: 286302..286319, sym: "alreadyBackAmount" }) }),right:Ident(Ident { span: 286322..286335, ctxt: #19, sym: "previousValue", optional: false })
+start:286289,end:286335
+operation:"+","accAdd",left:Member(MemberExpr { span: 286450..286476, obj: Ident(Ident { span: 286450..286462, ctxt: #20, sym: "currentValue", optional: false }), prop: Ident(IdentName { span: 286463..286476, sym: "payableAmount" }) }),right:Ident(Ident { span: 286479..286492, ctxt: #20, sym: "previousValue", optional: false })
+start:286450,end:286492

@@ -1,4 +1,4 @@
-operation:"+=","accAdd",left:BytePos(4039153),right:BytePos(4039153)
-start:4039153,end:4039177
-operation:"+","accAdd",left:Lit(Str(Str { span: 4050117..4050155, value: "分佣批次号：", raw: Some("\"\\u5206\\u4F63\\u6279\\u6B21\\u53F7\\uFF1A\"") })),right:Member(MemberExpr { span: 4050158..4050175, obj: Ident(Ident { span: 4050158..4050162, ctxt: #7, sym: "data", optional: false }), prop: Ident(IdentName { span: 4050163..4050175, sym: "balanceSeqId" }) })
-start:4050117,end:4050175
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 4020615..4020616, ctxt: #6, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 4020620..4020639, obj: Member(MemberExpr { span: 4020620..4020632, obj: Ident(Ident { span: 4020620..4020629, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 4020629..4020632, expr: Ident(Ident { span: 4020630..4020631, ctxt: #6, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 4020633..4020639, sym: "length" }) })
+start:4020615,end:4020639
+operation:"+","accAdd",left:Lit(Str(Str { span: 4031579..4031617, value: "分佣批次号：", raw: Some("\"\\u5206\\u4F63\\u6279\\u6B21\\u53F7\\uFF1A\"") })),right:Member(MemberExpr { span: 4031620..4031637, obj: Ident(Ident { span: 4031620..4031624, ctxt: #7, sym: "data", optional: false }), prop: Ident(IdentName { span: 4031625..4031637, sym: "balanceSeqId" }) })
+start:4031579,end:4031637

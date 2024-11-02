@@ -1,18 +1,18 @@
-operation:"/","accDiv",left:Ident(Ident { span: 3257154..3257159, ctxt: #27, sym: "value", optional: false }),right:Lit(Num(Number { span: 3257162..3257165, value: 100.0, raw: Some("100") }))
-start:3257154,end:3257165
-operation:"*","accMul",left:Call(CallExpr { span: 3257819..3257879, ctxt: #0, callee: Expr(Ident(Ident { span: 3257819..3257829, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3257830..3257878, obj: Member(MemberExpr { span: 3257830..3257852, obj: This(ThisExpr { span: 3257830..3257834 }), prop: Ident(IdentName { span: 3257835..3257852, sym: "lastBalanceAmount" }) }), prop: Computed(ComputedPropName { span: 3257852..3257878, expr: Member(MemberExpr { span: 3257853..3257877, obj: Ident(Ident { span: 3257853..3257859, ctxt: #29, sym: "record", optional: false }), prop: Ident(IdentName { span: 3257860..3257877, sym: "developer_plan_id" }) }) }) }) }], type_args: None }),right:Lit(Num(Number { span: 3257882..3257885, value: 100.0, raw: Some("100") }))
-start:3257819,end:3257885
-operation:"*","accMul",left:Call(CallExpr { span: 3257902..3257919, ctxt: #0, callee: Expr(Ident(Ident { span: 3257902..3257912, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3257913..3257918, ctxt: #29, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3257922..3257925, value: 100.0, raw: Some("100") }))
-start:3257902,end:3257925
-operation:"*","accMul",left:Call(CallExpr { span: 3257943..3257960, ctxt: #0, callee: Expr(Ident(Ident { span: 3257943..3257953, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3257954..3257959, ctxt: #29, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3257963..3257966, value: 100.0, raw: Some("100") }))
-start:3257943,end:3257966
-operation:"*","accMul",left:Call(CallExpr { span: 3258033..3258050, ctxt: #0, callee: Expr(Ident(Ident { span: 3258033..3258043, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3258044..3258049, ctxt: #29, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3258053..3258056, value: 100.0, raw: Some("100") }))
-start:3258033,end:3258056
-operation:"/","accDiv",left:Ident(Ident { span: 3258128..3258136, ctxt: #29, sym: "minValue", optional: false }),right:Lit(Num(Number { span: 3258139..3258142, value: 100.0, raw: Some("100") }))
-start:3258128,end:3258142
-operation:"/","accDiv",left:Ident(Ident { span: 3258160..3258168, ctxt: #29, sym: "maxValue", optional: false }),right:Lit(Num(Number { span: 3258171..3258174, value: 100.0, raw: Some("100") }))
-start:3258160,end:3258174
-operation:"+=","accAdd",left:BytePos(3261770),right:BytePos(3261770)
-start:3261770,end:3261805
-operation:"/","accDiv",left:Ident(Ident { span: 3262445..3262448, ctxt: #53, sym: "sum", optional: false }),right:Lit(Num(Number { span: 3262451..3262454, value: 100.0, raw: Some("100") }))
-start:3262445,end:3262454
+operation:"/","accDiv",left:Ident(Ident { span: 3253548..3253553, ctxt: #27, sym: "value", optional: false }),right:Lit(Num(Number { span: 3253556..3253559, value: 100.0, raw: Some("100") }))
+start:3253548,end:3253559
+operation:"*","accMul",left:Call(CallExpr { span: 3254213..3254273, ctxt: #0, callee: Expr(Ident(Ident { span: 3254213..3254223, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3254224..3254272, obj: Member(MemberExpr { span: 3254224..3254246, obj: This(ThisExpr { span: 3254224..3254228 }), prop: Ident(IdentName { span: 3254229..3254246, sym: "lastBalanceAmount" }) }), prop: Computed(ComputedPropName { span: 3254246..3254272, expr: Member(MemberExpr { span: 3254247..3254271, obj: Ident(Ident { span: 3254247..3254253, ctxt: #29, sym: "record", optional: false }), prop: Ident(IdentName { span: 3254254..3254271, sym: "developer_plan_id" }) }) }) }) }], type_args: None }),right:Lit(Num(Number { span: 3254276..3254279, value: 100.0, raw: Some("100") }))
+start:3254213,end:3254279
+operation:"*","accMul",left:Call(CallExpr { span: 3254296..3254313, ctxt: #0, callee: Expr(Ident(Ident { span: 3254296..3254306, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3254307..3254312, ctxt: #29, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3254316..3254319, value: 100.0, raw: Some("100") }))
+start:3254296,end:3254319
+operation:"*","accMul",left:Call(CallExpr { span: 3254337..3254354, ctxt: #0, callee: Expr(Ident(Ident { span: 3254337..3254347, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3254348..3254353, ctxt: #29, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3254357..3254360, value: 100.0, raw: Some("100") }))
+start:3254337,end:3254360
+operation:"*","accMul",left:Call(CallExpr { span: 3254427..3254444, ctxt: #0, callee: Expr(Ident(Ident { span: 3254427..3254437, ctxt: #1, sym: "parseFloat", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 3254438..3254443, ctxt: #29, sym: "value", optional: false }) }], type_args: None }),right:Lit(Num(Number { span: 3254447..3254450, value: 100.0, raw: Some("100") }))
+start:3254427,end:3254450
+operation:"/","accDiv",left:Ident(Ident { span: 3254522..3254530, ctxt: #29, sym: "minValue", optional: false }),right:Lit(Num(Number { span: 3254533..3254536, value: 100.0, raw: Some("100") }))
+start:3254522,end:3254536
+operation:"/","accDiv",left:Ident(Ident { span: 3254554..3254562, ctxt: #29, sym: "maxValue", optional: false }),right:Lit(Num(Number { span: 3254565..3254568, value: 100.0, raw: Some("100") }))
+start:3254554,end:3254568
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 3258164..3258167, ctxt: #53, sym: "sum", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 3258171..3258199, obj: Member(MemberExpr { span: 3258171..3258194, obj: Member(MemberExpr { span: 3258171..3258189, obj: This(ThisExpr { span: 3258171..3258175 }), prop: Ident(IdentName { span: 3258176..3258189, sym: "selectedStore" }) }), prop: Computed(ComputedPropName { span: 3258189..3258194, expr: Ident(Ident { span: 3258190..3258193, ctxt: #54, sym: "key", optional: false }) }) }), prop: Ident(IdentName { span: 3258195..3258199, sym: "data" }) })
+start:3258164,end:3258199
+operation:"/","accDiv",left:Ident(Ident { span: 3258839..3258842, ctxt: #53, sym: "sum", optional: false }),right:Lit(Num(Number { span: 3258845..3258848, value: 100.0, raw: Some("100") }))
+start:3258839,end:3258848

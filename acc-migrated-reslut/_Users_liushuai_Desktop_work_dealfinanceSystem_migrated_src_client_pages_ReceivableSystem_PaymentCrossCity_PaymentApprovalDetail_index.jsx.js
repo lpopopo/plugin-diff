@@ -1,14 +1,14 @@
-operation:"+","accAdd",left:Ident(Ident { span: 1036661..1036666, ctxt: #59, sym: "index", optional: false }),right:Lit(Num(Number { span: 1036669..1036670, value: 1.0, raw: Some("1") }))
-start:1036661,end:1036670
-operation:"+","accAdd",left:Ident(Ident { span: 1036738..1036743, ctxt: #59, sym: "index", optional: false }),right:Lit(Num(Number { span: 1036746..1036747, value: 1.0, raw: Some("1") }))
-start:1036738,end:1036747
-operation:"+=","accAdd",left:BytePos(1037863),right:BytePos(1037863)
-start:1037863,end:1037902
-operation:"/","accDiv",left:Ident(Ident { span: 1038429..1038436, ctxt: #58, sym: "tempSum", optional: false }),right:Lit(Num(Number { span: 1038439..1038442, value: 100.0, raw: Some("100") }))
-start:1038429,end:1038442
-operation:"+=","accAdd",left:BytePos(1038691),right:BytePos(1038691)
-start:1038691,end:1038697
-operation:"*","accMul",left:Call(CallExpr { span: 1038748..1038761, ctxt: #0, callee: Expr(Member(MemberExpr { span: 1038748..1038759, obj: Ident(Ident { span: 1038748..1038752, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 1038753..1038759, sym: "random" }) })), args: [], type_args: None }),right:Lit(Num(Number { span: 1038764..1038768, value: 16.0, raw: Some("0x10") }))
-start:1038748,end:1038768
-operation:"+","accAdd",left:Ident(Ident { span: 1041721..1041724, ctxt: #76, sym: "acc", optional: false }),right:Member(MemberExpr { span: 1041727..1041735, obj: Ident(Ident { span: 1041727..1041730, ctxt: #76, sym: "cur", optional: false }), prop: Computed(ComputedPropName { span: 1041730..1041735, expr: Ident(Ident { span: 1041731..1041734, ctxt: #75, sym: "key", optional: false }) }) })
-start:1041721,end:1041735
+operation:"+","accAdd",left:Ident(Ident { span: 759265..759270, ctxt: #59, sym: "index", optional: false }),right:Lit(Num(Number { span: 759273..759274, value: 1.0, raw: Some("1") }))
+start:759265,end:759274
+operation:"+","accAdd",left:Ident(Ident { span: 759342..759347, ctxt: #59, sym: "index", optional: false }),right:Lit(Num(Number { span: 759350..759351, value: 1.0, raw: Some("1") }))
+start:759342,end:759351
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 760467..760474, ctxt: #58, sym: "tempSum", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 760478..760506, obj: Ident(Ident { span: 760478..760483, ctxt: #63, sym: "value", optional: false }), prop: Ident(IdentName { span: 760484..760506, sym: "current_payment_amount" }) })
+start:760467,end:760506
+operation:"/","accDiv",left:Ident(Ident { span: 761033..761040, ctxt: #58, sym: "tempSum", optional: false }),right:Lit(Num(Number { span: 761043..761046, value: 100.0, raw: Some("100") }))
+start:761033,end:761046
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 761295..761296, ctxt: #67, sym: "i", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 761300..761301, value: 1.0, raw: Some("1") }))
+start:761295,end:761301
+operation:"*","accMul",left:Call(CallExpr { span: 761352..761365, ctxt: #0, callee: Expr(Member(MemberExpr { span: 761352..761363, obj: Ident(Ident { span: 761352..761356, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 761357..761363, sym: "random" }) })), args: [], type_args: None }),right:Lit(Num(Number { span: 761368..761372, value: 16.0, raw: Some("0x10") }))
+start:761352,end:761372
+operation:"+","accAdd",left:Ident(Ident { span: 764325..764328, ctxt: #76, sym: "acc", optional: false }),right:Member(MemberExpr { span: 764331..764339, obj: Ident(Ident { span: 764331..764334, ctxt: #76, sym: "cur", optional: false }), prop: Computed(ComputedPropName { span: 764334..764339, expr: Ident(Ident { span: 764335..764338, ctxt: #75, sym: "key", optional: false }) }) })
+start:764325,end:764339

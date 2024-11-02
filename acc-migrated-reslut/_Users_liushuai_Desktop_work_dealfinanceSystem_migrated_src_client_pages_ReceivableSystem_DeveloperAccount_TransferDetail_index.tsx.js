@@ -1,2 +1,2 @@
-operation:"+","accAdd",left:Lit(Str(Str { span: 752787..752789, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 752792..752797, ctxt: #16, sym: "index", optional: false })
-start:752787,end:752797
+operation:"+","accAdd",left:Lit(Str(Str { span: 957829..957831, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 957834..957839, ctxt: #16, sym: "index", optional: false })
+start:957829,end:957839

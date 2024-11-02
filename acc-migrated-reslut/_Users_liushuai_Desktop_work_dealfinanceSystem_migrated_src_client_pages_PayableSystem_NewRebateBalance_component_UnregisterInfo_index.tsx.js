@@ -1,4 +1,4 @@
-operation:"+","accAdd",left:Lit(Str(Str { span: 1856656..1856658, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 1856661..1856670, obj: Ident(Ident { span: 1856661..1856666, ctxt: #16, sym: "field", optional: false }), prop: Ident(IdentName { span: 1856667..1856670, sym: "key" }) })
-start:1856656,end:1856670
-operation:"+","accAdd",left:Member(MemberExpr { span: 1857327..1857337, obj: Ident(Ident { span: 1857327..1857332, ctxt: #16, sym: "field", optional: false }), prop: Ident(IdentName { span: 1857333..1857337, sym: "name" }) }),right:Lit(Str(Str { span: 1857340..1857366, value: "不可为空", raw: Some("\"\\u4E0D\\u53EF\\u4E3A\\u7A7A\"") }))
-start:1857327,end:1857366
+operation:"+","accAdd",left:Lit(Str(Str { span: 1919311..1919313, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 1919316..1919325, obj: Ident(Ident { span: 1919316..1919321, ctxt: #16, sym: "field", optional: false }), prop: Ident(IdentName { span: 1919322..1919325, sym: "key" }) })
+start:1919311,end:1919325
+operation:"+","accAdd",left:Member(MemberExpr { span: 1919982..1919992, obj: Ident(Ident { span: 1919982..1919987, ctxt: #16, sym: "field", optional: false }), prop: Ident(IdentName { span: 1919988..1919992, sym: "name" }) }),right:Lit(Str(Str { span: 1919995..1920021, value: "不可为空", raw: Some("\"\\u4E0D\\u53EF\\u4E3A\\u7A7A\"") }))
+start:1919982,end:1920021

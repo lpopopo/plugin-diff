@@ -1,12 +1,12 @@
-operation:"+=","accAdd",left:BytePos(293684),right:BytePos(293684)
-start:293684,end:293708
-operation:"+","accAdd",left:Lit(Str(Str { span: 297850..297856, value: "key_", raw: Some("\"key_\"") })),right:Member(MemberExpr { span: 297859..297895, obj: Member(MemberExpr { span: 297859..297880, obj: Member(MemberExpr { span: 297859..297877, obj: Member(MemberExpr { span: 297859..297867, obj: Ident(Ident { span: 297859..297862, ctxt: #15, sym: "res", optional: false }), prop: Ident(IdentName { span: 297863..297867, sym: "data" }) }), prop: Ident(IdentName { span: 297868..297877, sym: "paid_info" }) }), prop: Computed(ComputedPropName { span: 297877..297880, expr: Lit(Num(Number { span: 297878..297879, value: 0.0, raw: Some("0") })) }) }), prop: Ident(IdentName { span: 297881..297895, sym: "balance_seq_id" }) })
-start:297850,end:297895
-operation:"+","accAdd",left:Lit(Str(Str { span: 298130..298136, value: "key_", raw: Some("\"key_\"") })),right:Ident(Ident { span: 298139..298141, ctxt: #18, sym: "id", optional: false })
-start:298130,end:298141
-operation:"+","accAdd",left:Lit(Str(Str { span: 298158..298164, value: "key_", raw: Some("\"key_\"") })),right:Ident(Ident { span: 298167..298169, ctxt: #18, sym: "id", optional: false })
-start:298158,end:298169
-operation:"+","accAdd",left:Lit(Str(Str { span: 319963..319969, value: "key_", raw: Some("\"key_\"") })),right:Member(MemberExpr { span: 319972..319991, obj: Ident(Ident { span: 319972..319976, ctxt: #24, sym: "item", optional: false }), prop: Ident(IdentName { span: 319977..319991, sym: "balance_seq_id" }) })
-start:319963,end:319991
-operation:"+","accAdd",left:Lit(Str(Str { span: 321378..321384, value: "key_", raw: Some("\"key_\"") })),right:Member(MemberExpr { span: 321387..321406, obj: Ident(Ident { span: 321387..321391, ctxt: #24, sym: "item", optional: false }), prop: Ident(IdentName { span: 321392..321406, sym: "balance_seq_id" }) })
-start:321378,end:321406
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 218547..218548, ctxt: #9, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 218552..218571, obj: Member(MemberExpr { span: 218552..218564, obj: Ident(Ident { span: 218552..218561, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 218561..218564, expr: Ident(Ident { span: 218562..218563, ctxt: #9, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 218565..218571, sym: "length" }) })
+start:218547,end:218571
+operation:"+","accAdd",left:Lit(Str(Str { span: 222713..222719, value: "key_", raw: Some("\"key_\"") })),right:Member(MemberExpr { span: 222722..222758, obj: Member(MemberExpr { span: 222722..222743, obj: Member(MemberExpr { span: 222722..222740, obj: Member(MemberExpr { span: 222722..222730, obj: Ident(Ident { span: 222722..222725, ctxt: #15, sym: "res", optional: false }), prop: Ident(IdentName { span: 222726..222730, sym: "data" }) }), prop: Ident(IdentName { span: 222731..222740, sym: "paid_info" }) }), prop: Computed(ComputedPropName { span: 222740..222743, expr: Lit(Num(Number { span: 222741..222742, value: 0.0, raw: Some("0") })) }) }), prop: Ident(IdentName { span: 222744..222758, sym: "balance_seq_id" }) })
+start:222713,end:222758
+operation:"+","accAdd",left:Lit(Str(Str { span: 222993..222999, value: "key_", raw: Some("\"key_\"") })),right:Ident(Ident { span: 223002..223004, ctxt: #18, sym: "id", optional: false })
+start:222993,end:223004
+operation:"+","accAdd",left:Lit(Str(Str { span: 223021..223027, value: "key_", raw: Some("\"key_\"") })),right:Ident(Ident { span: 223030..223032, ctxt: #18, sym: "id", optional: false })
+start:223021,end:223032
+operation:"+","accAdd",left:Lit(Str(Str { span: 244826..244832, value: "key_", raw: Some("\"key_\"") })),right:Member(MemberExpr { span: 244835..244854, obj: Ident(Ident { span: 244835..244839, ctxt: #24, sym: "item", optional: false }), prop: Ident(IdentName { span: 244840..244854, sym: "balance_seq_id" }) })
+start:244826,end:244854
+operation:"+","accAdd",left:Lit(Str(Str { span: 246241..246247, value: "key_", raw: Some("\"key_\"") })),right:Member(MemberExpr { span: 246250..246269, obj: Ident(Ident { span: 246250..246254, ctxt: #24, sym: "item", optional: false }), prop: Ident(IdentName { span: 246255..246269, sym: "balance_seq_id" }) })
+start:246241,end:246269

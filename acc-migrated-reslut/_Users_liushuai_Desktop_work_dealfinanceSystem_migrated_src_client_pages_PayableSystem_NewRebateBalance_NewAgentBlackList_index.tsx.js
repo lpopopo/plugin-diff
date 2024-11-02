@@ -1,2 +1,2 @@
-operation:"+","accAdd",left:Lit(Str(Str { span: 578662..578664, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 578667..578674, obj: Ident(Ident { span: 578667..578671, ctxt: #5, sym: "item", optional: false }), prop: Ident(IdentName { span: 578672..578674, sym: "no" }) })
-start:578662,end:578674
+operation:"+","accAdd",left:Lit(Str(Str { span: 573639..573641, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 573644..573651, obj: Ident(Ident { span: 573644..573648, ctxt: #5, sym: "item", optional: false }), prop: Ident(IdentName { span: 573649..573651, sym: "no" }) })
+start:573639,end:573651

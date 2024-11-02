@@ -1,8 +1,8 @@
-operation:"+","accAdd",left:Member(MemberExpr { span: 3096631..3096672, obj: Call(CallExpr { span: 3096631..3096665, ctxt: #0, callee: Expr(Member(MemberExpr { span: 3096631..3096642, obj: Ident(Ident { span: 3096631..3096637, ctxt: #1, sym: "Object", optional: false }), prop: Ident(IdentName { span: 3096638..3096642, sym: "keys" }) })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 3096643..3096664, obj: Member(MemberExpr { span: 3096643..3096653, obj: This(ThisExpr { span: 3096643..3096647 }), prop: Ident(IdentName { span: 3096648..3096653, sym: "props" }) }), prop: Ident(IdentName { span: 3096654..3096664, sym: "dataSource" }) }) }], type_args: None }), prop: Ident(IdentName { span: 3096666..3096672, sym: "length" }) }),right:Lit(Num(Number { span: 3096675..3096676, value: 1.0, raw: Some("1") }))
-start:3096631,end:3096676
-operation:"-=","accSub",left:BytePos(3098757),right:BytePos(3098757)
-start:3098757,end:3098765
-operation:"+=","accAdd",left:BytePos(3099763),right:BytePos(3099763)
-start:3099763,end:3099790
-operation:"-","accSub",left:Member(MemberExpr { span: 3101578..3101593, obj: Ident(Ident { span: 3101578..3101586, ctxt: #44, sym: "fileType", optional: false }), prop: Ident(IdentName { span: 3101587..3101593, sym: "length" }) }),right:Lit(Num(Number { span: 3101596..3101597, value: 1.0, raw: Some("1") }))
-start:3101578,end:3101597
+operation:"+","accAdd",left:Member(MemberExpr { span: 2741906..2741947, obj: Call(CallExpr { span: 2741906..2741940, ctxt: #0, callee: Expr(Member(MemberExpr { span: 2741906..2741917, obj: Ident(Ident { span: 2741906..2741912, ctxt: #1, sym: "Object", optional: false }), prop: Ident(IdentName { span: 2741913..2741917, sym: "keys" }) })), args: [ExprOrSpread { spread: None, expr: Member(MemberExpr { span: 2741918..2741939, obj: Member(MemberExpr { span: 2741918..2741928, obj: This(ThisExpr { span: 2741918..2741922 }), prop: Ident(IdentName { span: 2741923..2741928, sym: "props" }) }), prop: Ident(IdentName { span: 2741929..2741939, sym: "dataSource" }) }) }], type_args: None }), prop: Ident(IdentName { span: 2741941..2741947, sym: "length" }) }),right:Lit(Num(Number { span: 2741950..2741951, value: 1.0, raw: Some("1") }))
+start:2741906,end:2741951
+operation:"-=","accSub",left:Simple(Ident(BindingIdent { id: Ident { span: 2744032..2744035, ctxt: #22, sym: "num", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 2744039..2744040, value: 1.0, raw: Some("1") }))
+start:2744032,end:2744040
+operation:"+=","accAdd",left:Simple(Member(MemberExpr { span: 2745038..2745060, obj: This(ThisExpr { span: 2745038..2745042 }), prop: Ident(IdentName { span: 2745043..2745060, sym: "attachmentsDataId" }) })),right:Lit(Num(Number { span: 2745064..2745065, value: 1.0, raw: Some("1") }))
+start:2745038,end:2745065
+operation:"-","accSub",left:Member(MemberExpr { span: 2746853..2746868, obj: Ident(Ident { span: 2746853..2746861, ctxt: #44, sym: "fileType", optional: false }), prop: Ident(IdentName { span: 2746862..2746868, sym: "length" }) }),right:Lit(Num(Number { span: 2746871..2746872, value: 1.0, raw: Some("1") }))
+start:2746853,end:2746872

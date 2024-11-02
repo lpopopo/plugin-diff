@@ -1,6 +1,6 @@
-operation:"+=","accAdd",left:BytePos(464754),right:BytePos(464754)
-start:464754,end:464760
-operation:"*","accMul",left:Call(CallExpr { span: 464811..464824, ctxt: #0, callee: Expr(Member(MemberExpr { span: 464811..464822, obj: Ident(Ident { span: 464811..464815, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 464816..464822, sym: "random" }) })), args: [], type_args: None }),right:Lit(Num(Number { span: 464827..464831, value: 16.0, raw: Some("0x10") }))
-start:464811,end:464831
-operation:"-=","accSub",left:BytePos(465386),right:BytePos(465386)
-start:465386,end:465394
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 394626..394627, ctxt: #51, sym: "i", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 394631..394632, value: 1.0, raw: Some("1") }))
+start:394626,end:394632
+operation:"*","accMul",left:Call(CallExpr { span: 394683..394696, ctxt: #0, callee: Expr(Member(MemberExpr { span: 394683..394694, obj: Ident(Ident { span: 394683..394687, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 394688..394694, sym: "random" }) })), args: [], type_args: None }),right:Lit(Num(Number { span: 394699..394703, value: 16.0, raw: Some("0x10") }))
+start:394683,end:394703
+operation:"-=","accSub",left:Simple(Ident(BindingIdent { id: Ident { span: 395258..395261, ctxt: #54, sym: "num", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 395265..395266, value: 1.0, raw: Some("1") }))
+start:395258,end:395266

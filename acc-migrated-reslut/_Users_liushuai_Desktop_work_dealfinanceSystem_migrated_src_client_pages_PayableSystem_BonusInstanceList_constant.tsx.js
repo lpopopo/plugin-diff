@@ -1,2 +1,2 @@
-operation:"+","accAdd",left:Lit(Str(Str { span: 1642230..1642281, value: "/view/bonusinstance/bonusinstanceitemlist?ruleId=", raw: Some("\"/view/bonusinstance/bonusinstanceitemlist?ruleId=\"") })),right:Member(MemberExpr { span: 1642284..1642297, obj: Ident(Ident { span: 1642284..1642290, ctxt: #4, sym: "record", optional: false }), prop: Ident(IdentName { span: 1642291..1642297, sym: "ruleId" }) })
-start:1642230,end:1642297
+operation:"+","accAdd",left:Lit(Str(Str { span: 1663100..1663151, value: "/view/bonusinstance/bonusinstanceitemlist?ruleId=", raw: Some("\"/view/bonusinstance/bonusinstanceitemlist?ruleId=\"") })),right:Member(MemberExpr { span: 1663154..1663167, obj: Ident(Ident { span: 1663154..1663160, ctxt: #4, sym: "record", optional: false }), prop: Ident(IdentName { span: 1663161..1663167, sym: "ruleId" }) })
+start:1663100,end:1663167

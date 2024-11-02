@@ -1,4 +1,4 @@
-operation:"+=","accAdd",left:BytePos(4152597),right:BytePos(4152597)
-start:4152597,end:4152603
-operation:"-=","accSub",left:BytePos(4152715),right:BytePos(4152715)
-start:4152715,end:4152721
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 4140552..4140553, ctxt: #9, sym: "i", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 4140557..4140558, value: 1.0, raw: Some("1") }))
+start:4140552,end:4140558
+operation:"-=","accSub",left:Simple(Ident(BindingIdent { id: Ident { span: 4140670..4140671, ctxt: #9, sym: "i", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 4140675..4140676, value: 1.0, raw: Some("1") }))
+start:4140670,end:4140676

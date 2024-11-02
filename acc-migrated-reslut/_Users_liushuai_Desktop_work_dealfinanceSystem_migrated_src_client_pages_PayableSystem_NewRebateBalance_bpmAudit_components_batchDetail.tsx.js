@@ -1,6 +1,6 @@
-operation:"-=","accSub",left:BytePos(2218111),right:BytePos(2218111)
-start:2218111,end:2218119
-operation:"+","accAdd",left:Lit(Str(Str { span: 2222373..2222375, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 2222378..2222397, obj: Ident(Ident { span: 2222378..2222384, ctxt: #32, sym: "record", optional: false }), prop: Ident(IdentName { span: 2222385..2222397, sym: "customerName" }) })
-start:2222373,end:2222397
-operation:"+","accAdd",left:Lit(Str(Str { span: 2226165..2226172, value: "attrs", raw: Some("\"attrs\"") })),right:Member(MemberExpr { span: 2226175..2226204, obj: Ident(Ident { span: 2226175..2226179, ctxt: #36, sym: "item", optional: false }), prop: Ident(IdentName { span: 2226180..2226204, sym: "distributorEnclosureName" }) })
-start:2226165,end:2226204
+operation:"-=","accSub",left:Simple(Ident(BindingIdent { id: Ident { span: 2275160..2275163, ctxt: #14, sym: "num", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 2275167..2275168, value: 1.0, raw: Some("1") }))
+start:2275160,end:2275168
+operation:"+","accAdd",left:Lit(Str(Str { span: 2279422..2279424, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 2279427..2279446, obj: Ident(Ident { span: 2279427..2279433, ctxt: #32, sym: "record", optional: false }), prop: Ident(IdentName { span: 2279434..2279446, sym: "customerName" }) })
+start:2279422,end:2279446
+operation:"+","accAdd",left:Lit(Str(Str { span: 2283214..2283221, value: "attrs", raw: Some("\"attrs\"") })),right:Member(MemberExpr { span: 2283224..2283253, obj: Ident(Ident { span: 2283224..2283228, ctxt: #36, sym: "item", optional: false }), prop: Ident(IdentName { span: 2283229..2283253, sym: "distributorEnclosureName" }) })
+start:2283214,end:2283253

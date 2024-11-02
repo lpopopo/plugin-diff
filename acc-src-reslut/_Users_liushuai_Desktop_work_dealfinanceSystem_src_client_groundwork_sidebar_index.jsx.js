@@ -1,6 +1,6 @@
-operation:"+","accAdd",left:Ident(Ident { span: 253554..253559, ctxt: #19, sym: "index", optional: false }),right:Lit(Num(Number { span: 253562..253563, value: 1.0, raw: Some("1") }))
-start:253554,end:253563
-operation:"-","accSub",left:Member(MemberExpr { span: 254069..254095, obj: Member(MemberExpr { span: 254069..254088, obj: Member(MemberExpr { span: 254069..254079, obj: This(ThisExpr { span: 254069..254073 }), prop: Ident(IdentName { span: 254074..254079, sym: "state" }) }), prop: Ident(IdentName { span: 254080..254088, sym: "openKeys" }) }), prop: Ident(IdentName { span: 254089..254095, sym: "length" }) }),right:Lit(Num(Number { span: 254098..254099, value: 1.0, raw: Some("1") }))
-start:254069,end:254099
-operation:"+","accAdd",left:Member(MemberExpr { span: 255141..255151, obj: Ident(Ident { span: 255141..255146, ctxt: #25, sym: "child", optional: false }), prop: Ident(IdentName { span: 255147..255151, sym: "path" }) }),right:Ident(Ident { span: 255154..255157, ctxt: #25, sym: "num", optional: false })
-start:255141,end:255157
+operation:"+","accAdd",left:Ident(Ident { span: 216188..216193, ctxt: #19, sym: "index", optional: false }),right:Lit(Num(Number { span: 216196..216197, value: 1.0, raw: Some("1") }))
+start:216188,end:216197
+operation:"-","accSub",left:Member(MemberExpr { span: 216703..216729, obj: Member(MemberExpr { span: 216703..216722, obj: Member(MemberExpr { span: 216703..216713, obj: This(ThisExpr { span: 216703..216707 }), prop: Ident(IdentName { span: 216708..216713, sym: "state" }) }), prop: Ident(IdentName { span: 216714..216722, sym: "openKeys" }) }), prop: Ident(IdentName { span: 216723..216729, sym: "length" }) }),right:Lit(Num(Number { span: 216732..216733, value: 1.0, raw: Some("1") }))
+start:216703,end:216733
+operation:"+","accAdd",left:Member(MemberExpr { span: 217775..217785, obj: Ident(Ident { span: 217775..217780, ctxt: #25, sym: "child", optional: false }), prop: Ident(IdentName { span: 217781..217785, sym: "path" }) }),right:Ident(Ident { span: 217788..217791, ctxt: #25, sym: "num", optional: false })
+start:217775,end:217791

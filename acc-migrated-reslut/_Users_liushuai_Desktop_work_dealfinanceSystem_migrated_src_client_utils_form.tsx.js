@@ -1,58 +1,58 @@
-operation:"+=","accAdd",left:BytePos(2285879),right:BytePos(2285879)
-start:2285879,end:2285903
-operation:"+","accAdd",left:Lit(Str(Str { span: 2290027..2290038, value: "asdasdas_", raw: Some("\"asdasdas_\"") })),right:Member(MemberExpr { span: 2290041..2290048, obj: Ident(Ident { span: 2290041..2290045, ctxt: #36, sym: "file", optional: false }), prop: Ident(IdentName { span: 2290046..2290048, sym: "id" }) })
-start:2290027,end:2290048
-operation:"+","accAdd",left:Lit(Str(Str { span: 2291415..2291417, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 2291420..2291429, obj: Ident(Ident { span: 2291420..2291424, ctxt: #41, sym: "item", optional: false }), prop: Computed(ComputedPropName { span: 2291424..2291429, expr: Ident(Ident { span: 2291425..2291428, ctxt: #37, sym: "key", optional: false }) }) })
-start:2291415,end:2291429
-operation:"+","accAdd",left:Lit(Str(Str { span: 2292069..2292071, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 2292074..2292083, obj: Ident(Ident { span: 2292074..2292078, ctxt: #45, sym: "item", optional: false }), prop: Computed(ComputedPropName { span: 2292078..2292083, expr: Ident(Ident { span: 2292079..2292082, ctxt: #42, sym: "key", optional: false }) }) })
-start:2292069,end:2292083
-operation:"+","accAdd",left:Lit(Str(Str { span: 2295447..2295451, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2295454..2295469, ctxt: #67, sym: "fieldsStateName", optional: false })
-start:2295447,end:2295469
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2295447..2295451, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2295454..2295469, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2295472..2295477, value: "Ref", raw: Some("\"Ref\"") }))
-start:2295447,end:2295477
-operation:"+","accAdd",left:Lit(Str(Str { span: 2295543..2295547, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2295550..2295565, ctxt: #67, sym: "fieldsStateName", optional: false })
-start:2295543,end:2295565
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2295543..2295547, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2295550..2295565, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2295568..2295573, value: "Ref", raw: Some("\"Ref\"") }))
-start:2295543,end:2295573
-operation:"+","accAdd",left:Ident(Ident { span: 2295626..2295641, ctxt: #67, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2295644..2295650, value: "Form", raw: Some("\"Form\"") }))
-start:2295626,end:2295650
-operation:"+","accAdd",left:Lit(Str(Str { span: 2295688..2295692, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2295695..2295710, ctxt: #67, sym: "fieldsStateName", optional: false })
-start:2295688,end:2295710
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2295688..2295692, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2295695..2295710, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2295713..2295721, value: "Change", raw: Some("\"Change\"") }))
-start:2295688,end:2295721
-operation:"+","accAdd",left:Lit(Str(Str { span: 2295787..2295791, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2295794..2295809, ctxt: #67, sym: "fieldsStateName", optional: false })
-start:2295787,end:2295809
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2295787..2295791, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2295794..2295809, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2295812..2295820, value: "Change", raw: Some("\"Change\"") }))
-start:2295787,end:2295820
-operation:"+","accAdd",left:Lit(Str(Str { span: 2296016..2296020, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2296023..2296038, ctxt: #67, sym: "fieldsStateName", optional: false })
-start:2296016,end:2296038
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2296016..2296020, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2296023..2296038, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2296041..2296055, value: "FieldsChange", raw: Some("\"FieldsChange\"") }))
-start:2296016,end:2296055
-operation:"+","accAdd",left:Lit(Str(Str { span: 2296121..2296125, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2296128..2296143, ctxt: #67, sym: "fieldsStateName", optional: false })
-start:2296121,end:2296143
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2296121..2296125, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2296128..2296143, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2296146..2296160, value: "FieldsChange", raw: Some("\"FieldsChange\"") }))
-start:2296121,end:2296160
-operation:"+","accAdd",left:Ident(Ident { span: 2296229..2296244, ctxt: #67, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2296247..2296255, value: "Fields", raw: Some("\"Fields\"") }))
-start:2296229,end:2296255
-operation:"+","accAdd",left:Ident(Ident { span: 2296297..2296312, ctxt: #67, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2296315..2296323, value: "Fields", raw: Some("\"Fields\"") }))
-start:2296297,end:2296323
-operation:"+","accAdd",left:Ident(Ident { span: 2296637..2296652, ctxt: #71, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2296655..2296663, value: "Fields", raw: Some("\"Fields\"") }))
-start:2296637,end:2296663
-operation:"+","accAdd",left:Lit(Str(Str { span: 2296699..2296703, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2296706..2296721, ctxt: #71, sym: "fieldsStateName", optional: false })
-start:2296699,end:2296721
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2296699..2296703, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2296706..2296721, ctxt: #71, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2296724..2296729, value: "Ref", raw: Some("\"Ref\"") }))
-start:2296699,end:2296729
-operation:"+","accAdd",left:Lit(Str(Str { span: 2296768..2296772, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2296775..2296790, ctxt: #71, sym: "fieldsStateName", optional: false })
-start:2296768,end:2296790
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2296768..2296772, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2296775..2296790, ctxt: #71, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2296793..2296801, value: "Change", raw: Some("\"Change\"") }))
-start:2296768,end:2296801
-operation:"+","accAdd",left:Lit(Str(Str { span: 2296846..2296850, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2296853..2296868, ctxt: #71, sym: "fieldsStateName", optional: false })
-start:2296846,end:2296868
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2296846..2296850, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2296853..2296868, ctxt: #71, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2296871..2296885, value: "FieldsChange", raw: Some("\"FieldsChange\"") }))
-start:2296846,end:2296885
-operation:"+","accAdd",left:Ident(Ident { span: 2297011..2297026, ctxt: #74, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2297029..2297035, value: "Form", raw: Some("\"Form\"") }))
-start:2297011,end:2297035
-operation:"+","accAdd",left:Lit(Str(Str { span: 2297061..2297063, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 2297066..2297081, ctxt: #74, sym: "fieldsStateName", optional: false })
-start:2297061,end:2297081
-operation:"+","accAdd",left:Ident(Ident { span: 2297100..2297115, ctxt: #74, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2297118..2297126, value: "Fields", raw: Some("\"Fields\"") }))
-start:2297100,end:2297126
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 2339326..2339327, ctxt: #12, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 2339331..2339350, obj: Member(MemberExpr { span: 2339331..2339343, obj: Ident(Ident { span: 2339331..2339340, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 2339340..2339343, expr: Ident(Ident { span: 2339341..2339342, ctxt: #12, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 2339344..2339350, sym: "length" }) })
+start:2339326,end:2339350
+operation:"+","accAdd",left:Lit(Str(Str { span: 2343474..2343485, value: "asdasdas_", raw: Some("\"asdasdas_\"") })),right:Member(MemberExpr { span: 2343488..2343495, obj: Ident(Ident { span: 2343488..2343492, ctxt: #36, sym: "file", optional: false }), prop: Ident(IdentName { span: 2343493..2343495, sym: "id" }) })
+start:2343474,end:2343495
+operation:"+","accAdd",left:Lit(Str(Str { span: 2344862..2344864, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 2344867..2344876, obj: Ident(Ident { span: 2344867..2344871, ctxt: #41, sym: "item", optional: false }), prop: Computed(ComputedPropName { span: 2344871..2344876, expr: Ident(Ident { span: 2344872..2344875, ctxt: #37, sym: "key", optional: false }) }) })
+start:2344862,end:2344876
+operation:"+","accAdd",left:Lit(Str(Str { span: 2345516..2345518, value: "", raw: Some("\"\"") })),right:Member(MemberExpr { span: 2345521..2345530, obj: Ident(Ident { span: 2345521..2345525, ctxt: #45, sym: "item", optional: false }), prop: Computed(ComputedPropName { span: 2345525..2345530, expr: Ident(Ident { span: 2345526..2345529, ctxt: #42, sym: "key", optional: false }) }) })
+start:2345516,end:2345530
+operation:"+","accAdd",left:Lit(Str(Str { span: 2348894..2348898, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2348901..2348916, ctxt: #67, sym: "fieldsStateName", optional: false })
+start:2348894,end:2348916
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2348894..2348898, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2348901..2348916, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2348919..2348924, value: "Ref", raw: Some("\"Ref\"") }))
+start:2348894,end:2348924
+operation:"+","accAdd",left:Lit(Str(Str { span: 2348990..2348994, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2348997..2349012, ctxt: #67, sym: "fieldsStateName", optional: false })
+start:2348990,end:2349012
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2348990..2348994, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2348997..2349012, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2349015..2349020, value: "Ref", raw: Some("\"Ref\"") }))
+start:2348990,end:2349020
+operation:"+","accAdd",left:Ident(Ident { span: 2349073..2349088, ctxt: #67, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2349091..2349097, value: "Form", raw: Some("\"Form\"") }))
+start:2349073,end:2349097
+operation:"+","accAdd",left:Lit(Str(Str { span: 2349135..2349139, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2349142..2349157, ctxt: #67, sym: "fieldsStateName", optional: false })
+start:2349135,end:2349157
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2349135..2349139, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2349142..2349157, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2349160..2349168, value: "Change", raw: Some("\"Change\"") }))
+start:2349135,end:2349168
+operation:"+","accAdd",left:Lit(Str(Str { span: 2349234..2349238, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2349241..2349256, ctxt: #67, sym: "fieldsStateName", optional: false })
+start:2349234,end:2349256
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2349234..2349238, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2349241..2349256, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2349259..2349267, value: "Change", raw: Some("\"Change\"") }))
+start:2349234,end:2349267
+operation:"+","accAdd",left:Lit(Str(Str { span: 2349463..2349467, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2349470..2349485, ctxt: #67, sym: "fieldsStateName", optional: false })
+start:2349463,end:2349485
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2349463..2349467, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2349470..2349485, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2349488..2349502, value: "FieldsChange", raw: Some("\"FieldsChange\"") }))
+start:2349463,end:2349502
+operation:"+","accAdd",left:Lit(Str(Str { span: 2349568..2349572, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2349575..2349590, ctxt: #67, sym: "fieldsStateName", optional: false })
+start:2349568,end:2349590
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2349568..2349572, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2349575..2349590, ctxt: #67, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2349593..2349607, value: "FieldsChange", raw: Some("\"FieldsChange\"") }))
+start:2349568,end:2349607
+operation:"+","accAdd",left:Ident(Ident { span: 2349676..2349691, ctxt: #67, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2349694..2349702, value: "Fields", raw: Some("\"Fields\"") }))
+start:2349676,end:2349702
+operation:"+","accAdd",left:Ident(Ident { span: 2349744..2349759, ctxt: #67, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2349762..2349770, value: "Fields", raw: Some("\"Fields\"") }))
+start:2349744,end:2349770
+operation:"+","accAdd",left:Ident(Ident { span: 2350084..2350099, ctxt: #71, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2350102..2350110, value: "Fields", raw: Some("\"Fields\"") }))
+start:2350084,end:2350110
+operation:"+","accAdd",left:Lit(Str(Str { span: 2350146..2350150, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2350153..2350168, ctxt: #71, sym: "fieldsStateName", optional: false })
+start:2350146,end:2350168
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2350146..2350150, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2350153..2350168, ctxt: #71, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2350171..2350176, value: "Ref", raw: Some("\"Ref\"") }))
+start:2350146,end:2350176
+operation:"+","accAdd",left:Lit(Str(Str { span: 2350215..2350219, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2350222..2350237, ctxt: #71, sym: "fieldsStateName", optional: false })
+start:2350215,end:2350237
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2350215..2350219, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2350222..2350237, ctxt: #71, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2350240..2350248, value: "Change", raw: Some("\"Change\"") }))
+start:2350215,end:2350248
+operation:"+","accAdd",left:Lit(Str(Str { span: 2350293..2350297, value: "on", raw: Some("\"on\"") })),right:Ident(Ident { span: 2350300..2350315, ctxt: #71, sym: "fieldsStateName", optional: false })
+start:2350293,end:2350315
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2350293..2350297, value: "on", raw: Some("\"on\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2350300..2350315, ctxt: #71, sym: "fieldsStateName", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2350318..2350332, value: "FieldsChange", raw: Some("\"FieldsChange\"") }))
+start:2350293,end:2350332
+operation:"+","accAdd",left:Ident(Ident { span: 2350458..2350473, ctxt: #74, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2350476..2350482, value: "Form", raw: Some("\"Form\"") }))
+start:2350458,end:2350482
+operation:"+","accAdd",left:Lit(Str(Str { span: 2350508..2350510, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 2350513..2350528, ctxt: #74, sym: "fieldsStateName", optional: false })
+start:2350508,end:2350528
+operation:"+","accAdd",left:Ident(Ident { span: 2350547..2350562, ctxt: #74, sym: "fieldsStateName", optional: false }),right:Lit(Str(Str { span: 2350565..2350573, value: "Fields", raw: Some("\"Fields\"") }))
+start:2350547,end:2350573

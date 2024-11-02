@@ -1,10 +1,10 @@
-operation:"-","accSub",left:Member(MemberExpr { span: 418498..418515, obj: Ident(Ident { span: 418498..418508, ctxt: #12, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 418509..418515, sym: "length" }) }),right:Lit(Num(Number { span: 418518..418519, value: 1.0, raw: Some("1") }))
-start:418498,end:418519
-operation:"-","accSub",left:Member(MemberExpr { span: 420508..420516, obj: Ident(Ident { span: 420508..420509, ctxt: #24, sym: "t", optional: false }), prop: Ident(IdentName { span: 420510..420516, sym: "length" }) }),right:Lit(Num(Number { span: 420519..420520, value: 1.0, raw: Some("1") }))
-start:420508,end:420520
-operation:"+=","accAdd",left:BytePos(421300),right:BytePos(421300)
-start:421300,end:421324
-operation:"+","accAdd",left:Member(MemberExpr { span: 430844..430863, obj: Ident(Ident { span: 430844..430848, ctxt: #46, sym: "data", optional: false }), prop: Ident(IdentName { span: 430849..430863, sym: "invoiceTaxRate" }) }),right:Lit(Str(Str { span: 430866..430869, value: "%", raw: Some("\"%\"") }))
-start:430844,end:430869
-operation:"+","accAdd",left:Member(MemberExpr { span: 441816..441835, obj: Ident(Ident { span: 441816..441820, ctxt: #46, sym: "data", optional: false }), prop: Ident(IdentName { span: 441821..441835, sym: "invoiceTaxRate" }) }),right:Lit(Str(Str { span: 441838..441841, value: "%", raw: Some("\"%\"") }))
-start:441816,end:441841
+operation:"-","accSub",left:Member(MemberExpr { span: 410272..410289, obj: Ident(Ident { span: 410272..410282, ctxt: #12, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 410283..410289, sym: "length" }) }),right:Lit(Num(Number { span: 410292..410293, value: 1.0, raw: Some("1") }))
+start:410272,end:410293
+operation:"-","accSub",left:Member(MemberExpr { span: 412282..412290, obj: Ident(Ident { span: 412282..412283, ctxt: #24, sym: "t", optional: false }), prop: Ident(IdentName { span: 412284..412290, sym: "length" }) }),right:Lit(Num(Number { span: 412293..412294, value: 1.0, raw: Some("1") }))
+start:412282,end:412294
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 413074..413075, ctxt: #37, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 413079..413098, obj: Member(MemberExpr { span: 413079..413091, obj: Ident(Ident { span: 413079..413088, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 413088..413091, expr: Ident(Ident { span: 413089..413090, ctxt: #37, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 413092..413098, sym: "length" }) })
+start:413074,end:413098
+operation:"+","accAdd",left:Member(MemberExpr { span: 422618..422637, obj: Ident(Ident { span: 422618..422622, ctxt: #46, sym: "data", optional: false }), prop: Ident(IdentName { span: 422623..422637, sym: "invoiceTaxRate" }) }),right:Lit(Str(Str { span: 422640..422643, value: "%", raw: Some("\"%\"") }))
+start:422618,end:422643
+operation:"+","accAdd",left:Member(MemberExpr { span: 433590..433609, obj: Ident(Ident { span: 433590..433594, ctxt: #46, sym: "data", optional: false }), prop: Ident(IdentName { span: 433595..433609, sym: "invoiceTaxRate" }) }),right:Lit(Str(Str { span: 433612..433615, value: "%", raw: Some("\"%\"") }))
+start:433590,end:433615

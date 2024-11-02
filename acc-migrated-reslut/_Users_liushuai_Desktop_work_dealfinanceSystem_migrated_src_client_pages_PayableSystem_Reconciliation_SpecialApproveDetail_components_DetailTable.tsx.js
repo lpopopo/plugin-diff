@@ -1,4 +1,4 @@
-operation:"+","accAdd",left:Lit(Str(Str { span: 1997445..1997453, value: "共", raw: Some("\"\\u5171\"") })),right:Ident(Ident { span: 1997456..1997461, ctxt: #14, sym: "total", optional: false })
-start:1997445,end:1997461
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 1997445..1997453, value: "共", raw: Some("\"\\u5171\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 1997456..1997461, ctxt: #14, sym: "total", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 1997464..1997484, value: "条记录", raw: Some("\"\\u6761\\u8BB0\\u5F55\"") }))
-start:1997445,end:1997484
+operation:"+","accAdd",left:Lit(Str(Str { span: 2005543..2005551, value: "共", raw: Some("\"\\u5171\"") })),right:Ident(Ident { span: 2005554..2005559, ctxt: #14, sym: "total", optional: false })
+start:2005543,end:2005559
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 2005543..2005551, value: "共", raw: Some("\"\\u5171\"") })) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 2005554..2005559, ctxt: #14, sym: "total", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 2005562..2005582, value: "条记录", raw: Some("\"\\u6761\\u8BB0\\u5F55\"") }))
+start:2005543,end:2005582

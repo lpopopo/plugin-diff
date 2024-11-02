@@ -1,6 +1,6 @@
-operation:"+","accAdd",left:Ident(Ident { span: 1527121..1527126, ctxt: #19, sym: "index", optional: false }),right:Lit(Num(Number { span: 1527129..1527130, value: 1.0, raw: Some("1") }))
-start:1527121,end:1527130
-operation:"-","accSub",left:Member(MemberExpr { span: 1527636..1527662, obj: Member(MemberExpr { span: 1527636..1527655, obj: Member(MemberExpr { span: 1527636..1527646, obj: This(ThisExpr { span: 1527636..1527640 }), prop: Ident(IdentName { span: 1527641..1527646, sym: "state" }) }), prop: Ident(IdentName { span: 1527647..1527655, sym: "openKeys" }) }), prop: Ident(IdentName { span: 1527656..1527662, sym: "length" }) }),right:Lit(Num(Number { span: 1527665..1527666, value: 1.0, raw: Some("1") }))
-start:1527636,end:1527666
-operation:"+","accAdd",left:Member(MemberExpr { span: 1528708..1528718, obj: Ident(Ident { span: 1528708..1528713, ctxt: #25, sym: "child", optional: false }), prop: Ident(IdentName { span: 1528714..1528718, sym: "path" }) }),right:Ident(Ident { span: 1528721..1528724, ctxt: #25, sym: "num", optional: false })
-start:1528708,end:1528724
+operation:"+","accAdd",left:Ident(Ident { span: 3225539..3225544, ctxt: #19, sym: "index", optional: false }),right:Lit(Num(Number { span: 3225547..3225548, value: 1.0, raw: Some("1") }))
+start:3225539,end:3225548
+operation:"-","accSub",left:Member(MemberExpr { span: 3226054..3226080, obj: Member(MemberExpr { span: 3226054..3226073, obj: Member(MemberExpr { span: 3226054..3226064, obj: This(ThisExpr { span: 3226054..3226058 }), prop: Ident(IdentName { span: 3226059..3226064, sym: "state" }) }), prop: Ident(IdentName { span: 3226065..3226073, sym: "openKeys" }) }), prop: Ident(IdentName { span: 3226074..3226080, sym: "length" }) }),right:Lit(Num(Number { span: 3226083..3226084, value: 1.0, raw: Some("1") }))
+start:3226054,end:3226084
+operation:"+","accAdd",left:Member(MemberExpr { span: 3227126..3227136, obj: Ident(Ident { span: 3227126..3227131, ctxt: #25, sym: "child", optional: false }), prop: Ident(IdentName { span: 3227132..3227136, sym: "path" }) }),right:Ident(Ident { span: 3227139..3227142, ctxt: #25, sym: "num", optional: false })
+start:3227126,end:3227142

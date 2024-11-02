@@ -1,6 +1,6 @@
-operation:"+=","accAdd",left:BytePos(4067869),right:BytePos(4067869)
-start:4067869,end:4067885
-operation:"/","accDiv",left:Ident(Ident { span: 4068709..4068712, ctxt: #8, sym: "sum", optional: false }),right:Lit(Num(Number { span: 4068715..4068718, value: 100.0, raw: Some("100") }))
-start:4068709,end:4068718
-operation:"+=","accAdd",left:BytePos(4075554),right:BytePos(4075554)
-start:4075554,end:4075574
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 3895039..3895042, ctxt: #8, sym: "sum", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 3895046..3895055, obj: Ident(Ident { span: 3895046..3895050, ctxt: #11, sym: "item", optional: false }), prop: Ident(IdentName { span: 3895051..3895055, sym: "data" }) })
+start:3895039,end:3895055
+operation:"/","accDiv",left:Ident(Ident { span: 3895879..3895882, ctxt: #8, sym: "sum", optional: false }),right:Lit(Num(Number { span: 3895885..3895888, value: 100.0, raw: Some("100") }))
+start:3895879,end:3895888
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 3902724..3902727, ctxt: #43, sym: "sum", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 3902731..3902744, obj: Ident(Ident { span: 3902731..3902735, ctxt: #44, sym: "item", optional: false }), prop: Computed(ComputedPropName { span: 3902735..3902744, expr: Ident(Ident { span: 3902736..3902743, ctxt: #3, sym: "keyName", optional: false }) }) })
+start:3902724,end:3902744

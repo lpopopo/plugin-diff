@@ -1,2 +1,2 @@
-operation:"-=","accSub",left:BytePos(3611578),right:BytePos(3611578)
-start:3611578,end:3611586
+operation:"-=","accSub",left:Simple(Ident(BindingIdent { id: Ident { span: 3593763..3593766, ctxt: #12, sym: "num", optional: false }, type_ann: None })),right:Lit(Num(Number { span: 3593770..3593771, value: 1.0, raw: Some("1") }))
+start:3593763,end:3593771

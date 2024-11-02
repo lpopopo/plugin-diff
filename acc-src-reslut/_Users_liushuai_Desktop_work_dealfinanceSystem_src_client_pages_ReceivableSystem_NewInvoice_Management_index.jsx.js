@@ -1,2 +1,2 @@
-operation:"+=","accAdd",left:BytePos(149981),right:BytePos(149981)
-start:149981,end:150007
+operation:"+=","accAdd",left:Simple(Member(MemberExpr { span: 148799..148811, obj: This(ThisExpr { span: 148799..148803 }), prop: Ident(IdentName { span: 148804..148811, sym: "scrollX" }) })),right:Member(MemberExpr { span: 148815..148825, obj: Ident(Ident { span: 148815..148819, ctxt: #11, sym: "item", optional: false }), prop: Ident(IdentName { span: 148820..148825, sym: "width" }) })
+start:148799,end:148825

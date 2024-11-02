@@ -1,4 +1,4 @@
-operation:"+=","accAdd",left:BytePos(325937),right:BytePos(325937)
-start:325937,end:325961
-operation:"+","accAdd",left:Lit(Str(Str { span: 334089..334115, value: "特殊规则", raw: Some("\"\\u7279\\u6B8A\\u89C4\\u5219\"") })),right:Ident(Ident { span: 334118..334123, ctxt: #35, sym: "index", optional: false })
-start:334089,end:334123
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 253447..253448, ctxt: #6, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 253452..253471, obj: Member(MemberExpr { span: 253452..253464, obj: Ident(Ident { span: 253452..253461, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 253461..253464, expr: Ident(Ident { span: 253462..253463, ctxt: #6, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 253465..253471, sym: "length" }) })
+start:253447,end:253471
+operation:"+","accAdd",left:Lit(Str(Str { span: 261599..261625, value: "特殊规则", raw: Some("\"\\u7279\\u6B8A\\u89C4\\u5219\"") })),right:Ident(Ident { span: 261628..261633, ctxt: #35, sym: "index", optional: false })
+start:261599,end:261633

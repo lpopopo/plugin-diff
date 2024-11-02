@@ -1,2 +1,2 @@
-operation:"+","accAdd",left:Ident(Ident { span: 288466..288469, ctxt: #15, sym: "sum", optional: false }),right:Member(MemberExpr { span: 288472..288478, obj: Ident(Ident { span: 288472..288473, ctxt: #15, sym: "a", optional: false }), prop: Computed(ComputedPropName { span: 288473..288478, expr: Ident(Ident { span: 288474..288477, ctxt: #13, sym: "key", optional: false }) }) })
-start:288466,end:288478
+operation:"+","accAdd",left:Ident(Ident { span: 295726..295729, ctxt: #15, sym: "sum", optional: false }),right:Member(MemberExpr { span: 295732..295738, obj: Ident(Ident { span: 295732..295733, ctxt: #15, sym: "a", optional: false }), prop: Computed(ComputedPropName { span: 295733..295738, expr: Ident(Ident { span: 295734..295737, ctxt: #13, sym: "key", optional: false }) }) })
+start:295726,end:295738

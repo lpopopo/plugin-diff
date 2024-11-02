@@ -1,4 +1,4 @@
-operation:"+","accAdd",left:Ident(Ident { span: 365319..365324, ctxt: #29, sym: "index", optional: false }),right:Lit(Num(Number { span: 365327..365328, value: 1.0, raw: Some("1") }))
-start:365319,end:365328
-operation:"+","accAdd",left:Ident(Ident { span: 365609..365614, ctxt: #29, sym: "index", optional: false }),right:Lit(Num(Number { span: 365617..365618, value: 1.0, raw: Some("1") }))
-start:365609,end:365618
+operation:"+","accAdd",left:Ident(Ident { span: 349207..349212, ctxt: #29, sym: "index", optional: false }),right:Lit(Num(Number { span: 349215..349216, value: 1.0, raw: Some("1") }))
+start:349207,end:349216
+operation:"+","accAdd",left:Ident(Ident { span: 349497..349502, ctxt: #29, sym: "index", optional: false }),right:Lit(Num(Number { span: 349505..349506, value: 1.0, raw: Some("1") }))
+start:349497,end:349506

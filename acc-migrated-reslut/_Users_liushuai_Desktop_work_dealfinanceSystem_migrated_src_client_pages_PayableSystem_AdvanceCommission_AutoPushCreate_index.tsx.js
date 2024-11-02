@@ -1,14 +1,14 @@
-operation:"-","accSub",left:Member(MemberExpr { span: 848907..848924, obj: Ident(Ident { span: 848907..848917, ctxt: #9, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 848918..848924, sym: "length" }) }),right:Lit(Num(Number { span: 848927..848928, value: 1.0, raw: Some("1") }))
-start:848907,end:848928
-operation:"-","accSub",left:Member(MemberExpr { span: 850917..850925, obj: Ident(Ident { span: 850917..850918, ctxt: #21, sym: "t", optional: false }), prop: Ident(IdentName { span: 850919..850925, sym: "length" }) }),right:Lit(Num(Number { span: 850928..850929, value: 1.0, raw: Some("1") }))
-start:850917,end:850929
-operation:"+=","accAdd",left:BytePos(851709),right:BytePos(851709)
-start:851709,end:851733
-operation:"+","accAdd",left:Lit(Str(Str { span: 855618..855627, value: "locald_", raw: Some("\"locald_\"") })),right:Call(CallExpr { span: 855630..855643, ctxt: #0, callee: Expr(Member(MemberExpr { span: 855630..855641, obj: Ident(Ident { span: 855630..855634, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 855635..855641, sym: "random" }) })), args: [], type_args: None })
-start:855618,end:855643
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 855618..855627, value: "locald_", raw: Some("\"locald_\"") })) }, ExprOrSpread { spread: None, expr: Call(CallExpr { span: 855630..855643, ctxt: #0, callee: Expr(Member(MemberExpr { span: 855630..855641, obj: Ident(Ident { span: 855630..855634, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 855635..855641, sym: "random" }) })), args: [], type_args: None }) }], type_args: None }),right:Call(CallExpr { span: 855646..855659, ctxt: #0, callee: Expr(Member(MemberExpr { span: 855646..855657, obj: Ident(Ident { span: 855646..855650, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 855651..855657, sym: "random" }) })), args: [], type_args: None })
-start:855618,end:855659
-operation:"+","accAdd",left:Lit(Str(Str { span: 868826..868831, value: "id_", raw: Some("\"id_\"") })),right:Member(MemberExpr { span: 868834..868846, obj: Ident(Ident { span: 868834..868838, ctxt: #96, sym: "item", optional: false }), prop: Ident(IdentName { span: 868839..868846, sym: "localId" }) })
-start:868826,end:868846
-operation:"+","accAdd",left:Lit(Str(Str { span: 871891..871893, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 871896..871900, ctxt: #98, sym: "item", optional: false })
-start:871891,end:871900
+operation:"-","accSub",left:Member(MemberExpr { span: 460731..460748, obj: Ident(Ident { span: 460731..460741, ctxt: #9, sym: "decorators", optional: false }), prop: Ident(IdentName { span: 460742..460748, sym: "length" }) }),right:Lit(Num(Number { span: 460751..460752, value: 1.0, raw: Some("1") }))
+start:460731,end:460752
+operation:"-","accSub",left:Member(MemberExpr { span: 462741..462749, obj: Ident(Ident { span: 462741..462742, ctxt: #21, sym: "t", optional: false }), prop: Ident(IdentName { span: 462743..462749, sym: "length" }) }),right:Lit(Num(Number { span: 462752..462753, value: 1.0, raw: Some("1") }))
+start:462741,end:462753
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 463533..463534, ctxt: #34, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 463538..463557, obj: Member(MemberExpr { span: 463538..463550, obj: Ident(Ident { span: 463538..463547, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 463547..463550, expr: Ident(Ident { span: 463548..463549, ctxt: #34, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 463551..463557, sym: "length" }) })
+start:463533,end:463557
+operation:"+","accAdd",left:Lit(Str(Str { span: 467442..467451, value: "locald_", raw: Some("\"locald_\"") })),right:Call(CallExpr { span: 467454..467467, ctxt: #0, callee: Expr(Member(MemberExpr { span: 467454..467465, obj: Ident(Ident { span: 467454..467458, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 467459..467465, sym: "random" }) })), args: [], type_args: None })
+start:467442,end:467467
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 467442..467451, value: "locald_", raw: Some("\"locald_\"") })) }, ExprOrSpread { spread: None, expr: Call(CallExpr { span: 467454..467467, ctxt: #0, callee: Expr(Member(MemberExpr { span: 467454..467465, obj: Ident(Ident { span: 467454..467458, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 467459..467465, sym: "random" }) })), args: [], type_args: None }) }], type_args: None }),right:Call(CallExpr { span: 467470..467483, ctxt: #0, callee: Expr(Member(MemberExpr { span: 467470..467481, obj: Ident(Ident { span: 467470..467474, ctxt: #1, sym: "Math", optional: false }), prop: Ident(IdentName { span: 467475..467481, sym: "random" }) })), args: [], type_args: None })
+start:467442,end:467483
+operation:"+","accAdd",left:Lit(Str(Str { span: 480650..480655, value: "id_", raw: Some("\"id_\"") })),right:Member(MemberExpr { span: 480658..480670, obj: Ident(Ident { span: 480658..480662, ctxt: #96, sym: "item", optional: false }), prop: Ident(IdentName { span: 480663..480670, sym: "localId" }) })
+start:480650,end:480670
+operation:"+","accAdd",left:Lit(Str(Str { span: 483715..483717, value: "", raw: Some("\"\"") })),right:Ident(Ident { span: 483720..483724, ctxt: #98, sym: "item", optional: false })
+start:483715,end:483724

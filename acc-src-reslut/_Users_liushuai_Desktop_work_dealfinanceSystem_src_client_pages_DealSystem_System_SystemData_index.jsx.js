@@ -1,6 +1,6 @@
-operation:"+","accAdd",left:Ident(Ident { span: 13765..13770, ctxt: #5, sym: "index", optional: false }),right:Lit(Num(Number { span: 13773..13774, value: 2.0, raw: Some("2") }))
-start:13765,end:13774
-operation:"/","accDiv",left:Paren(ParenExpr { span: 13764..13775, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 13765..13770, ctxt: #5, sym: "index", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 13773..13774, value: 2.0, raw: Some("2") })) }], type_args: None }) }),right:Lit(Num(Number { span: 13778..13779, value: 2.0, raw: Some("2") }))
-start:13764,end:13779
-operation:"+","accAdd",left:Ident(Ident { span: 16088..16093, ctxt: #11, sym: "index", optional: false }),right:Member(MemberExpr { span: 16096..16107, obj: Ident(Ident { span: 16096..16101, ctxt: #12, sym: "value", optional: false }), prop: Ident(IdentName { span: 16102..16107, sym: "phone" }) })
-start:16088,end:16107
+operation:"+","accAdd",left:Ident(Ident { span: 16907..16912, ctxt: #5, sym: "index", optional: false }),right:Lit(Num(Number { span: 16915..16916, value: 2.0, raw: Some("2") }))
+start:16907,end:16916
+operation:"/","accDiv",left:Paren(ParenExpr { span: 16906..16917, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 16907..16912, ctxt: #5, sym: "index", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Num(Number { span: 16915..16916, value: 2.0, raw: Some("2") })) }], type_args: None }) }),right:Lit(Num(Number { span: 16920..16921, value: 2.0, raw: Some("2") }))
+start:16906,end:16921
+operation:"+","accAdd",left:Ident(Ident { span: 19230..19235, ctxt: #11, sym: "index", optional: false }),right:Member(MemberExpr { span: 19238..19249, obj: Ident(Ident { span: 19238..19243, ctxt: #12, sym: "value", optional: false }), prop: Ident(IdentName { span: 19244..19249, sym: "phone" }) })
+start:19230,end:19249

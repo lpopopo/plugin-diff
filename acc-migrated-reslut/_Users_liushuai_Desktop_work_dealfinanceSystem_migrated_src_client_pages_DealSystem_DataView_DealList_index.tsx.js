@@ -1,12 +1,12 @@
-operation:"+=","accAdd",left:BytePos(1240780),right:BytePos(1240780)
-start:1240780,end:1240804
-operation:"+","accAdd",left:Ident(Ident { span: 1245918..1245922, ctxt: #9, sym: "name", optional: false }),right:Lit(Str(Str { span: 1245925..1245928, value: "(", raw: Some("\"(\"") }))
-start:1245918,end:1245928
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 1245918..1245922, ctxt: #9, sym: "name", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 1245925..1245928, value: "(", raw: Some("\"(\"") })) }], type_args: None }),right:Ident(Ident { span: 1245931..1245936, ctxt: #9, sym: "uc_id", optional: false })
-start:1245918,end:1245936
-operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 1245918..1245922, ctxt: #9, sym: "name", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 1245925..1245928, value: "(", raw: Some("\"(\"") })) }], type_args: None }) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 1245931..1245936, ctxt: #9, sym: "uc_id", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 1245939..1245942, value: ")", raw: Some("\")\"") }))
-start:1245918,end:1245942
-operation:"+","accAdd",left:Ident(Ident { span: 1246363..1246367, ctxt: #11, sym: "time", optional: false }),right:Lit(Str(Str { span: 1246370..1246377, value: "Start", raw: Some("\"Start\"") }))
-start:1246363,end:1246377
-operation:"+","accAdd",left:Ident(Ident { span: 1246414..1246418, ctxt: #11, sym: "time", optional: false }),right:Lit(Str(Str { span: 1246421..1246426, value: "End", raw: Some("\"End\"") }))
-start:1246414,end:1246426
+operation:"+=","accAdd",left:Simple(Ident(BindingIdent { id: Ident { span: 1049013..1049014, ctxt: #6, sym: "s", optional: false }, type_ann: None })),right:Member(MemberExpr { span: 1049018..1049037, obj: Member(MemberExpr { span: 1049018..1049030, obj: Ident(Ident { span: 1049018..1049027, ctxt: #1, sym: "arguments", optional: false }), prop: Computed(ComputedPropName { span: 1049027..1049030, expr: Ident(Ident { span: 1049028..1049029, ctxt: #6, sym: "i", optional: false }) }) }), prop: Ident(IdentName { span: 1049031..1049037, sym: "length" }) })
+start:1049013,end:1049037
+operation:"+","accAdd",left:Ident(Ident { span: 1054151..1054155, ctxt: #9, sym: "name", optional: false }),right:Lit(Str(Str { span: 1054158..1054161, value: "(", raw: Some("\"(\"") }))
+start:1054151,end:1054161
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 1054151..1054155, ctxt: #9, sym: "name", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 1054158..1054161, value: "(", raw: Some("\"(\"") })) }], type_args: None }),right:Ident(Ident { span: 1054164..1054169, ctxt: #9, sym: "uc_id", optional: false })
+start:1054151,end:1054169
+operation:"+","accAdd",left:Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Call(CallExpr { span: 0..0, ctxt: #0, callee: Expr(Ident(Ident { span: 0..0, ctxt: #0, sym: "accAdd", optional: false })), args: [ExprOrSpread { spread: None, expr: Ident(Ident { span: 1054151..1054155, ctxt: #9, sym: "name", optional: false }) }, ExprOrSpread { spread: None, expr: Lit(Str(Str { span: 1054158..1054161, value: "(", raw: Some("\"(\"") })) }], type_args: None }) }, ExprOrSpread { spread: None, expr: Ident(Ident { span: 1054164..1054169, ctxt: #9, sym: "uc_id", optional: false }) }], type_args: None }),right:Lit(Str(Str { span: 1054172..1054175, value: ")", raw: Some("\")\"") }))
+start:1054151,end:1054175
+operation:"+","accAdd",left:Ident(Ident { span: 1054596..1054600, ctxt: #11, sym: "time", optional: false }),right:Lit(Str(Str { span: 1054603..1054610, value: "Start", raw: Some("\"Start\"") }))
+start:1054596,end:1054610
+operation:"+","accAdd",left:Ident(Ident { span: 1054647..1054651, ctxt: #11, sym: "time", optional: false }),right:Lit(Str(Str { span: 1054654..1054659, value: "End", raw: Some("\"End\"") }))
+start:1054647,end:1054659
