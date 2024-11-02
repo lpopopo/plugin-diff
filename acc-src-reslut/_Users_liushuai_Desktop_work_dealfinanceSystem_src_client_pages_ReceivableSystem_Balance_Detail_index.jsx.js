@@ -1,3 +1,10 @@
+operation:+,accAdd
+operation:-,accSub
+operation:-,accSub
+operation:*,accMul
+operation:*,accMul
+operation:*,accMul
+operation:+,accAdd
 operation:/,accDiv
 operation:*,accMul
 operation:*,accMul
@@ -16,11 +23,4 @@ operation:-,accSub
 operation:/,accDiv
 operation:-,accSub
 operation:-,accSub
-operation:+,accAdd
-operation:+,accAdd
-operation:-,accSub
-operation:-,accSub
-operation:*,accMul
-operation:*,accMul
-operation:*,accMul
 operation:+,accAdd
